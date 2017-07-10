@@ -1,0 +1,14 @@
+skill:
+  general:
+    name: Sword_burst
+    displayname: Sword_Burst
+    lore:
+      '1': "\xc2\xa7e<insert>"
+      '2': "\xc2\xa7e<insert>"
+      '3': "\xc2\xa7e<insert>"
+    type: SWORD
+    enabled: true
+  duration:
+    cooldown: 5
+    loading: 5
+    executing: 5

@@ -1,0 +1,488 @@
+[05:49:09] [Server thread/INFO]: Starting minecraft server version 1.8.8
+[05:49:09] [Server thread/INFO]: Loading properties
+[05:49:09] [Server thread/INFO]: Default game type: SURVIVAL
+[05:49:10] [Server thread/INFO]: This server is running CraftBukkit version git-Spigot-fdc1440-53fac9f (MC: 1.8.8) (Implementing API version 1.8.8-R0.1-SNAPSHOT)
+[05:49:11] [Server thread/INFO]: Unable to find file banned-players.json, creating it.
+[05:49:11] [Server thread/INFO]: Unable to find file banned-ips.json, creating it.
+[05:49:12] [Server thread/INFO]: Unable to find file whitelist.json, creating it.
+[05:49:13] [Server thread/INFO]: Debug logging is disabled
+[05:49:13] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[05:49:13] [Server thread/INFO]: Using 4 threads for Netty based IO
+[05:49:13] [Server thread/INFO]: Generating keypair
+[05:49:15] [Server thread/INFO]: Starting Minecraft server on *:25572
+[05:49:15] [Server thread/INFO]: Using default channel type
+[05:49:24] [Server thread/INFO]: Set PluginClassLoader as parallel capable
+[05:49:26] [Server thread/INFO]: [AsyncWorldEditInjector] Loading AsyncWorldEditInjector v2.2.2
+[05:49:26] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v6.1;no_git_id
+[05:49:26] [Server thread/INFO]: [AsyncWorldEdit] Loading AsyncWorldEdit v2.2.2
+[05:49:26] [Server thread/INFO]: [BungeePermsBukkit] Loading BungeePermsBukkit v2.1.2
+[05:49:26] [Server thread/INFO]: [BungeePerms] loading permissions ...
+[05:49:37] [Server thread/WARN]: com.mysql.jdbc.exceptions.jdbc4.MySQLNonTransientConnectionException: Could not create connection to database server. Attempted reconnect 3 times. Giving up.
+[05:49:37] [Server thread/WARN]: 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+[05:49:37] [Server thread/WARN]: 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+[05:49:37] [Server thread/WARN]: 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+[05:49:37] [Server thread/WARN]: 	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+[05:49:37] [Server thread/WARN]: 	at com.mysql.jdbc.Util.handleNewInstance(Util.java:407)
+[05:49:37] [Server thread/WARN]: 	at com.mysql.jdbc.Util.getInstance(Util.java:382)
+[05:49:37] [Server thread/WARN]: 	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1013)
+[05:49:37] [Server thread/WARN]: 	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:987)
+[05:49:37] [Server thread/WARN]: 	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:982)
+[05:49:37] [Server thread/WARN]: 	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:927)
+[05:49:37] [Server thread/WARN]: 	at com.mysql.jdbc.ConnectionImpl.connectWithRetries(ConnectionImpl.java:2239)
+[05:49:37] [Server thread/WARN]: 	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2168)
+[05:49:37] [Server thread/WARN]: 	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:794)
+[05:49:37] [Server thread/WARN]: 	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:47)
+[05:49:37] [Server thread/WARN]: 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+[05:49:37] [Server thread/WARN]: 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+[05:49:37] [Server thread/WARN]: 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+[05:49:37] [Server thread/WARN]: 	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+[05:49:37] [Server thread/WARN]: 	at com.mysql.jdbc.Util.handleNewInstance(Util.java:407)
+[05:49:37] [Server thread/WARN]: 	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:378)
+[05:49:37] [Server thread/WARN]: 	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:305)
+[05:49:37] [Server thread/WARN]: 	at java.sql.DriverManager.getConnection(Unknown Source)
+[05:49:37] [Server thread/WARN]: 	at java.sql.DriverManager.getConnection(Unknown Source)
+[05:49:37] [Server thread/WARN]: 	at net.alpenblock.bungeeperms.bukkit.Mysql.connect(Mysql.java:29)
+[05:49:37] [Server thread/WARN]: 	at net.alpenblock.bungeeperms.bukkit.io.MySQLBackEnd.<init>(MySQLBackEnd.java:41)
+[05:49:37] [Server thread/WARN]: 	at net.alpenblock.bungeeperms.bukkit.PermissionsManager.loadPerms(PermissionsManager.java:68)
+[05:49:37] [Server thread/WARN]: 	at net.alpenblock.bungeeperms.bukkit.PermissionsManager.<init>(PermissionsManager.java:52)
+[05:49:37] [Server thread/WARN]: 	at net.alpenblock.bungeeperms.bukkit.BungeePerms.onLoad(BungeePerms.java:36)
+[05:49:37] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_8_R3.CraftServer.loadPlugins(CraftServer.java:297)
+[05:49:37] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.DedicatedServer.init(DedicatedServer.java:198)
+[05:49:37] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:524)
+[05:49:37] [Server thread/WARN]: 	at java.lang.Thread.run(Unknown Source)
+[05:49:37] [Server thread/WARN]: Caused by: com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 2 milliseconds ago. The driver has not received any packets from the server.
+[05:49:37] [Server thread/WARN]: 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+[05:49:37] [Server thread/WARN]: 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+[05:49:37] [Server thread/WARN]: 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+[05:49:37] [Server thread/WARN]: 	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+[05:49:37] [Server thread/WARN]: 	at com.mysql.jdbc.Util.handleNewInstance(Util.java:407)
+[05:49:37] [Server thread/WARN]: 	at com.mysql.jdbc.SQLError.createCommunicationsException(SQLError.java:1116)
+[05:49:37] [Server thread/WARN]: 	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:343)
+[05:49:37] [Server thread/WARN]: 	at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2334)
+[05:49:37] [Server thread/WARN]: 	at com.mysql.jdbc.ConnectionImpl.connectWithRetries(ConnectionImpl.java:2186)
+[05:49:37] [Server thread/WARN]: 	... 21 more
+[05:49:37] [Server thread/WARN]: Caused by: java.net.ConnectException: Connection refused: connect
+[05:49:37] [Server thread/WARN]: 	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+[05:49:37] [Server thread/WARN]: 	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
+[05:49:37] [Server thread/WARN]: 	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+[05:49:37] [Server thread/WARN]: 	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+[05:49:37] [Server thread/WARN]: 	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+[05:49:37] [Server thread/WARN]: 	at java.net.PlainSocketImpl.connect(Unknown Source)
+[05:49:37] [Server thread/WARN]: 	at java.net.SocksSocketImpl.connect(Unknown Source)
+[05:49:37] [Server thread/WARN]: 	at java.net.Socket.connect(Unknown Source)
+[05:49:37] [Server thread/WARN]: 	at java.net.Socket.connect(Unknown Source)
+[05:49:37] [Server thread/WARN]: 	at java.net.Socket.<init>(Unknown Source)
+[05:49:37] [Server thread/WARN]: 	at java.net.Socket.<init>(Unknown Source)
+[05:49:37] [Server thread/WARN]: 	at com.mysql.jdbc.StandardSocketFactory.connect(StandardSocketFactory.java:254)
+[05:49:37] [Server thread/WARN]: 	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:292)
+[05:49:37] [Server thread/WARN]: 	... 23 more
+[05:49:48] [Server thread/WARN]: com.mysql.jdbc.exceptions.jdbc4.MySQLNonTransientConnectionException: Could not create connection to database server. Attempted reconnect 3 times. Giving up.
+[05:49:48] [Server thread/WARN]: 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+[05:49:48] [Server thread/WARN]: 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+[05:49:48] [Server thread/WARN]: 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+[05:49:48] [Server thread/WARN]: 	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+[05:49:48] [Server thread/WARN]: 	at com.mysql.jdbc.Util.handleNewInstance(Util.java:407)
+[05:49:48] [Server thread/WARN]: 	at com.mysql.jdbc.Util.getInstance(Util.java:382)
+[05:49:48] [Server thread/WARN]: 	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1013)
+[05:49:48] [Server thread/WARN]: 	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:987)
+[05:49:48] [Server thread/WARN]: 	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:982)
+[05:49:48] [Server thread/WARN]: 	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:927)
+[05:49:48] [Server thread/WARN]: 	at com.mysql.jdbc.ConnectionImpl.connectWithRetries(ConnectionImpl.java:2239)
+[05:49:48] [Server thread/WARN]: 	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2168)
+[05:49:48] [Server thread/WARN]: 	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:794)
+[05:49:48] [Server thread/WARN]: 	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:47)
+[05:49:48] [Server thread/WARN]: 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+[05:49:48] [Server thread/WARN]: 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+[05:49:48] [Server thread/WARN]: 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+[05:49:48] [Server thread/WARN]: 	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+[05:49:48] [Server thread/WARN]: 	at com.mysql.jdbc.Util.handleNewInstance(Util.java:407)
+[05:49:48] [Server thread/WARN]: 	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:378)
+[05:49:48] [Server thread/WARN]: 	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:305)
+[05:49:48] [Server thread/WARN]: 	at java.sql.DriverManager.getConnection(Unknown Source)
+[05:49:48] [Server thread/WARN]: 	at java.sql.DriverManager.getConnection(Unknown Source)
+[05:49:48] [Server thread/WARN]: 	at net.alpenblock.bungeeperms.bukkit.Mysql.connect(Mysql.java:29)
+[05:49:48] [Server thread/WARN]: 	at net.alpenblock.bungeeperms.bukkit.Mysql.reconnect(Mysql.java:308)
+[05:49:48] [Server thread/WARN]: 	at net.alpenblock.bungeeperms.bukkit.Mysql.checkConnection(Mysql.java:302)
+[05:49:48] [Server thread/WARN]: 	at net.alpenblock.bungeeperms.bukkit.Mysql.returnQuery(Mysql.java:217)
+[05:49:48] [Server thread/WARN]: 	at net.alpenblock.bungeeperms.bukkit.Mysql.returnQuery(Mysql.java:87)
+[05:49:48] [Server thread/WARN]: 	at net.alpenblock.bungeeperms.bukkit.Mysql.tableExists(Mysql.java:105)
+[05:49:48] [Server thread/WARN]: 	at net.alpenblock.bungeeperms.bukkit.MysqlConfig.createTable(MysqlConfig.java:81)
+[05:49:48] [Server thread/WARN]: 	at net.alpenblock.bungeeperms.bukkit.io.MySQLBackEnd.<init>(MySQLBackEnd.java:46)
+[05:49:48] [Server thread/WARN]: 	at net.alpenblock.bungeeperms.bukkit.PermissionsManager.loadPerms(PermissionsManager.java:68)
+[05:49:48] [Server thread/WARN]: 	at net.alpenblock.bungeeperms.bukkit.PermissionsManager.<init>(PermissionsManager.java:52)
+[05:49:48] [Server thread/WARN]: 	at net.alpenblock.bungeeperms.bukkit.BungeePerms.onLoad(BungeePerms.java:36)
+[05:49:48] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_8_R3.CraftServer.loadPlugins(CraftServer.java:297)
+[05:49:48] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.DedicatedServer.init(DedicatedServer.java:198)
+[05:49:48] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:524)
+[05:49:48] [Server thread/WARN]: 	at java.lang.Thread.run(Unknown Source)
+[05:49:48] [Server thread/WARN]: Caused by: com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+[05:49:48] [Server thread/WARN]: 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+[05:49:48] [Server thread/WARN]: 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+[05:49:48] [Server thread/WARN]: 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+[05:49:48] [Server thread/WARN]: 	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+[05:49:48] [Server thread/WARN]: 	at com.mysql.jdbc.Util.handleNewInstance(Util.java:407)
+[05:49:48] [Server thread/WARN]: 	at com.mysql.jdbc.SQLError.createCommunicationsException(SQLError.java:1116)
+[05:49:48] [Server thread/WARN]: 	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:343)
+[05:49:48] [Server thread/WARN]: 	at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2334)
+[05:49:48] [Server thread/WARN]: 	at com.mysql.jdbc.ConnectionImpl.connectWithRetries(ConnectionImpl.java:2186)
+[05:49:48] [Server thread/WARN]: 	... 27 more
+[05:49:48] [Server thread/WARN]: Caused by: java.net.ConnectException: Connection refused: connect
+[05:49:48] [Server thread/WARN]: 	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+[05:49:48] [Server thread/WARN]: 	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
+[05:49:48] [Server thread/WARN]: 	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+[05:49:48] [Server thread/WARN]: 	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+[05:49:48] [Server thread/WARN]: 	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+[05:49:48] [Server thread/WARN]: 	at java.net.PlainSocketImpl.connect(Unknown Source)
+[05:49:48] [Server thread/WARN]: 	at java.net.SocksSocketImpl.connect(Unknown Source)
+[05:49:48] [Server thread/WARN]: 	at java.net.Socket.connect(Unknown Source)
+[05:49:48] [Server thread/WARN]: 	at java.net.Socket.connect(Unknown Source)
+[05:49:48] [Server thread/WARN]: 	at java.net.Socket.<init>(Unknown Source)
+[05:49:48] [Server thread/WARN]: 	at java.net.Socket.<init>(Unknown Source)
+[05:49:48] [Server thread/WARN]: 	at com.mysql.jdbc.StandardSocketFactory.connect(StandardSocketFactory.java:254)
+[05:49:48] [Server thread/WARN]: 	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:292)
+[05:49:48] [Server thread/WARN]: 	... 29 more
+[05:49:48] [Server thread/WARN]: java.lang.NullPointerException
+[05:49:48] [Server thread/WARN]: 	at net.alpenblock.bungeeperms.bukkit.Mysql.returnQuery(Mysql.java:218)
+[05:49:48] [Server thread/WARN]: 	at net.alpenblock.bungeeperms.bukkit.Mysql.returnQuery(Mysql.java:87)
+[05:49:48] [Server thread/WARN]: 	at net.alpenblock.bungeeperms.bukkit.Mysql.tableExists(Mysql.java:105)
+[05:49:48] [Server thread/WARN]: 	at net.alpenblock.bungeeperms.bukkit.MysqlConfig.createTable(MysqlConfig.java:81)
+[05:49:48] [Server thread/WARN]: 	at net.alpenblock.bungeeperms.bukkit.io.MySQLBackEnd.<init>(MySQLBackEnd.java:46)
+[05:49:48] [Server thread/WARN]: 	at net.alpenblock.bungeeperms.bukkit.PermissionsManager.loadPerms(PermissionsManager.java:68)
+[05:49:48] [Server thread/WARN]: 	at net.alpenblock.bungeeperms.bukkit.PermissionsManager.<init>(PermissionsManager.java:52)
+[05:49:48] [Server thread/WARN]: 	at net.alpenblock.bungeeperms.bukkit.BungeePerms.onLoad(BungeePerms.java:36)
+[05:49:48] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_8_R3.CraftServer.loadPlugins(CraftServer.java:297)
+[05:49:48] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.DedicatedServer.init(DedicatedServer.java:198)
+[05:49:48] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:524)
+[05:49:48] [Server thread/WARN]: 	at java.lang.Thread.run(Unknown Source)
+[05:49:58] [Server thread/WARN]: com.mysql.jdbc.exceptions.jdbc4.MySQLNonTransientConnectionException: Could not create connection to database server. Attempted reconnect 3 times. Giving up.
+[05:49:58] [Server thread/WARN]: 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+[05:49:58] [Server thread/WARN]: 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+[05:49:58] [Server thread/WARN]: 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+[05:49:58] [Server thread/WARN]: 	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+[05:49:58] [Server thread/WARN]: 	at com.mysql.jdbc.Util.handleNewInstance(Util.java:407)
+[05:49:58] [Server thread/WARN]: 	at com.mysql.jdbc.Util.getInstance(Util.java:382)
+[05:49:58] [Server thread/WARN]: 	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1013)
+[05:49:58] [Server thread/WARN]: 	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:987)
+[05:49:58] [Server thread/WARN]: 	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:982)
+[05:49:58] [Server thread/WARN]: 	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:927)
+[05:49:58] [Server thread/WARN]: 	at com.mysql.jdbc.ConnectionImpl.connectWithRetries(ConnectionImpl.java:2239)
+[05:49:58] [Server thread/WARN]: 	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2168)
+[05:49:58] [Server thread/WARN]: 	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:794)
+[05:49:58] [Server thread/WARN]: 	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:47)
+[05:49:58] [Server thread/WARN]: 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+[05:49:58] [Server thread/WARN]: 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+[05:49:58] [Server thread/WARN]: 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+[05:49:58] [Server thread/WARN]: 	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+[05:49:58] [Server thread/WARN]: 	at com.mysql.jdbc.Util.handleNewInstance(Util.java:407)
+[05:49:58] [Server thread/WARN]: 	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:378)
+[05:49:58] [Server thread/WARN]: 	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:305)
+[05:49:58] [Server thread/WARN]: 	at java.sql.DriverManager.getConnection(Unknown Source)
+[05:49:58] [Server thread/WARN]: 	at java.sql.DriverManager.getConnection(Unknown Source)
+[05:49:58] [Server thread/WARN]: 	at net.alpenblock.bungeeperms.bukkit.Mysql.connect(Mysql.java:29)
+[05:49:58] [Server thread/WARN]: 	at net.alpenblock.bungeeperms.bukkit.Mysql.reconnect(Mysql.java:308)
+[05:49:58] [Server thread/WARN]: 	at net.alpenblock.bungeeperms.bukkit.Mysql.checkConnection(Mysql.java:302)
+[05:49:58] [Server thread/WARN]: 	at net.alpenblock.bungeeperms.bukkit.Mysql.runQuery(Mysql.java:249)
+[05:49:58] [Server thread/WARN]: 	at net.alpenblock.bungeeperms.bukkit.Mysql.runQuery(Mysql.java:91)
+[05:49:58] [Server thread/WARN]: 	at net.alpenblock.bungeeperms.bukkit.MysqlConfig.createTable(MysqlConfig.java:88)
+[05:49:58] [Server thread/WARN]: 	at net.alpenblock.bungeeperms.bukkit.io.MySQLBackEnd.<init>(MySQLBackEnd.java:46)
+[05:49:58] [Server thread/WARN]: 	at net.alpenblock.bungeeperms.bukkit.PermissionsManager.loadPerms(PermissionsManager.java:68)
+[05:49:58] [Server thread/WARN]: 	at net.alpenblock.bungeeperms.bukkit.PermissionsManager.<init>(PermissionsManager.java:52)
+[05:49:58] [Server thread/WARN]: 	at net.alpenblock.bungeeperms.bukkit.BungeePerms.onLoad(BungeePerms.java:36)
+[05:49:58] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_8_R3.CraftServer.loadPlugins(CraftServer.java:297)
+[05:49:58] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.DedicatedServer.init(DedicatedServer.java:198)
+[05:49:58] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:524)
+[05:49:58] [Server thread/WARN]: 	at java.lang.Thread.run(Unknown Source)
+[05:49:58] [Server thread/WARN]: Caused by: com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+[05:49:58] [Server thread/WARN]: 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+[05:49:58] [Server thread/WARN]: 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+[05:49:58] [Server thread/WARN]: 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+[05:49:58] [Server thread/WARN]: 	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+[05:49:58] [Server thread/WARN]: 	at com.mysql.jdbc.Util.handleNewInstance(Util.java:407)
+[05:49:58] [Server thread/WARN]: 	at com.mysql.jdbc.SQLError.createCommunicationsException(SQLError.java:1116)
+[05:49:58] [Server thread/WARN]: 	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:343)
+[05:49:58] [Server thread/WARN]: 	at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2334)
+[05:49:58] [Server thread/WARN]: 	at com.mysql.jdbc.ConnectionImpl.connectWithRetries(ConnectionImpl.java:2186)
+[05:49:58] [Server thread/WARN]: 	... 26 more
+[05:49:58] [Server thread/WARN]: Caused by: java.net.ConnectException: Connection refused: connect
+[05:49:58] [Server thread/WARN]: 	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+[05:49:58] [Server thread/WARN]: 	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
+[05:49:58] [Server thread/WARN]: 	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+[05:49:58] [Server thread/WARN]: 	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+[05:49:58] [Server thread/WARN]: 	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+[05:49:58] [Server thread/WARN]: 	at java.net.PlainSocketImpl.connect(Unknown Source)
+[05:49:58] [Server thread/WARN]: 	at java.net.SocksSocketImpl.connect(Unknown Source)
+[05:49:58] [Server thread/WARN]: 	at java.net.Socket.connect(Unknown Source)
+[05:49:58] [Server thread/WARN]: 	at java.net.Socket.connect(Unknown Source)
+[05:49:58] [Server thread/WARN]: 	at java.net.Socket.<init>(Unknown Source)
+[05:49:58] [Server thread/WARN]: 	at java.net.Socket.<init>(Unknown Source)
+[05:49:58] [Server thread/WARN]: 	at com.mysql.jdbc.StandardSocketFactory.connect(StandardSocketFactory.java:254)
+[05:49:58] [Server thread/WARN]: 	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:292)
+[05:49:58] [Server thread/WARN]: 	... 28 more
+[05:49:58] [Server thread/ERROR]: java.lang.NullPointerException initializing BungeePermsBukkit v2.1.2 (Is it up to date?)
+java.lang.RuntimeException: java.lang.NullPointerException
+	at net.alpenblock.bungeeperms.bukkit.Mysql.runQuery(Mysql.java:257) ~[?:?]
+	at net.alpenblock.bungeeperms.bukkit.Mysql.runQuery(Mysql.java:91) ~[?:?]
+	at net.alpenblock.bungeeperms.bukkit.MysqlConfig.createTable(MysqlConfig.java:88) ~[?:?]
+	at net.alpenblock.bungeeperms.bukkit.io.MySQLBackEnd.<init>(MySQLBackEnd.java:46) ~[?:?]
+	at net.alpenblock.bungeeperms.bukkit.PermissionsManager.loadPerms(PermissionsManager.java:68) ~[?:?]
+	at net.alpenblock.bungeeperms.bukkit.PermissionsManager.<init>(PermissionsManager.java:52) ~[?:?]
+	at net.alpenblock.bungeeperms.bukkit.BungeePerms.onLoad(BungeePerms.java:36) ~[?:?]
+	at org.bukkit.craftbukkit.v1_8_R3.CraftServer.loadPlugins(CraftServer.java:297) [spigot-1.8.8.jar:git-Spigot-fdc1440-53fac9f]
+	at net.minecraft.server.v1_8_R3.DedicatedServer.init(DedicatedServer.java:198) [spigot-1.8.8.jar:git-Spigot-fdc1440-53fac9f]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:524) [spigot-1.8.8.jar:git-Spigot-fdc1440-53fac9f]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_71]
+Caused by: java.lang.NullPointerException
+	at net.alpenblock.bungeeperms.bukkit.Mysql.runQuery(Mysql.java:250) ~[?:?]
+	... 10 more
+[05:49:58] [Server thread/INFO]: [WorldGuard] Loading WorldGuard v6.1
+[05:49:58] [Server thread/INFO]: [BungeePermsBukkitBridge] Loading BungeePermsBukkitBridge v1.0.0
+[05:49:58] [Server thread/INFO]: [AsyncWorldEditInjector] Enabling AsyncWorldEditInjector v2.2.2
+[05:49:58] [Server thread/INFO]: [AsyncWorldEditInjector] Injector platform set to: InjectorBukkit
+[05:49:58] [Server thread/INFO]: [AsyncWorldEditInjector] Injecting WorldEdit classes...
+[05:49:59] [Server thread/INFO]: [AsyncWorldEditInjector] Class com.sk89q.worldedit.EditSession injected.
+[05:49:59] [Server thread/INFO]: [AsyncWorldEditInjector] Class com.sk89q.worldedit.function.operation.Operations injected.
+[05:49:59] [Server thread/INFO]: [AsyncWorldEditInjector] Class com.sk89q.worldedit.command.SchematicCommands injected.
+[05:49:59] [Server thread/INFO]: [AsyncWorldEditInjector] Class com.sk89q.worldedit.command.ScriptingCommands injected.
+[05:49:59] [Server thread/INFO]: [AsyncWorldEditInjector] Enabled
+[05:49:59] [Server thread/INFO]: [BungeePermsBukkit] Enabling BungeePermsBukkit v2.1.2
+[05:49:59] [Server thread/INFO]: Activating BungeePerms ...
+[05:49:59] [Server thread/ERROR]: Error occurred while enabling BungeePermsBukkit v2.1.2 (Is it up to date?)
+java.lang.NullPointerException
+	at net.alpenblock.bungeeperms.bukkit.BungeePerms.onEnable(BungeePerms.java:47) ~[?:?]
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:321) ~[spigot-1.8.8.jar:git-Spigot-fdc1440-53fac9f]
+	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:340) [spigot-1.8.8.jar:git-Spigot-fdc1440-53fac9f]
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:405) [spigot-1.8.8.jar:git-Spigot-fdc1440-53fac9f]
+	at org.bukkit.craftbukkit.v1_8_R3.CraftServer.loadPlugin(CraftServer.java:357) [spigot-1.8.8.jar:git-Spigot-fdc1440-53fac9f]
+	at org.bukkit.craftbukkit.v1_8_R3.CraftServer.enablePlugins(CraftServer.java:317) [spigot-1.8.8.jar:git-Spigot-fdc1440-53fac9f]
+	at net.minecraft.server.v1_8_R3.DedicatedServer.init(DedicatedServer.java:199) [spigot-1.8.8.jar:git-Spigot-fdc1440-53fac9f]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:524) [spigot-1.8.8.jar:git-Spigot-fdc1440-53fac9f]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_71]
+[05:49:59] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[05:49:59] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[05:49:59] [Server thread/WARN]: Whilst this makes it possible to use BungeeCord, unless access to your server is properly restricted, it also opens up the ability for hackers to connect with any username they choose.
+[05:49:59] [Server thread/WARN]: Please see http://www.spigotmc.org/wiki/firewall-guide/ for further information.
+[05:49:59] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[05:49:59] [Server thread/INFO]: **** Beginning UUID conversion, this may take A LONG time ****
+[05:49:59] [Server thread/INFO]: Preparing level "Survival"
+[05:50:00] [Server thread/INFO]: -------- World Settings For [Survival] --------
+[05:50:00] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[05:50:00] [Server thread/INFO]: Anti X-Ray: true
+[05:50:00] [Server thread/INFO]: 	Engine Mode: 1
+[05:50:00] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[05:50:00] [Server thread/INFO]: 	Replace Blocks: [1, 5]
+[05:50:00] [Server thread/INFO]: Mob Spawn Range: 4
+[05:50:00] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[05:50:00] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[05:50:00] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[05:50:00] [Server thread/INFO]: Cane Growth Modifier: 100%
+[05:50:00] [Server thread/INFO]: Melon Growth Modifier: 100%
+[05:50:00] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[05:50:00] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[05:50:00] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[05:50:00] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[05:50:00] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[05:50:00] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[05:50:00] [Server thread/INFO]: Random Lighting Updates: false
+[05:50:00] [Server thread/INFO]: Structure Info Saving: true
+[05:50:00] [Server thread/INFO]: Sending up to 10 chunks per packet
+[05:50:00] [Server thread/INFO]: Max TNT Explosions: 100
+[05:50:00] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[05:50:00] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[05:50:00] [Server thread/INFO]: Item Merge Radius: 2.5
+[05:50:00] [Server thread/INFO]: Item Despawn Rate: 6000
+[05:50:00] [Server thread/INFO]: Max Entity Collisions: 8
+[05:50:00] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[05:50:00] [Server thread/INFO]: View Distance: 10
+[05:50:00] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[05:50:00] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[05:50:00] [Server thread/INFO]: Chunks to Grow per Tick: 650
+[05:50:00] [Server thread/INFO]: Clear tick list: false
+[05:50:00] [Server thread/INFO]: Experience Merge Radius: 3.0
+[05:50:04] [Server thread/INFO]: -------- World Settings For [Survival_nether] --------
+[05:50:04] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[05:50:04] [Server thread/INFO]: Anti X-Ray: true
+[05:50:04] [Server thread/INFO]: 	Engine Mode: 1
+[05:50:04] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[05:50:04] [Server thread/INFO]: 	Replace Blocks: [1, 5]
+[05:50:04] [Server thread/INFO]: Mob Spawn Range: 4
+[05:50:04] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[05:50:04] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[05:50:04] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[05:50:04] [Server thread/INFO]: Cane Growth Modifier: 100%
+[05:50:04] [Server thread/INFO]: Melon Growth Modifier: 100%
+[05:50:04] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[05:50:04] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[05:50:04] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[05:50:04] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[05:50:04] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[05:50:04] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[05:50:04] [Server thread/INFO]: Random Lighting Updates: false
+[05:50:04] [Server thread/INFO]: Structure Info Saving: true
+[05:50:04] [Server thread/INFO]: Sending up to 10 chunks per packet
+[05:50:04] [Server thread/INFO]: Max TNT Explosions: 100
+[05:50:04] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[05:50:04] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[05:50:04] [Server thread/INFO]: Item Merge Radius: 2.5
+[05:50:04] [Server thread/INFO]: Item Despawn Rate: 6000
+[05:50:04] [Server thread/INFO]: Max Entity Collisions: 8
+[05:50:04] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[05:50:04] [Server thread/INFO]: View Distance: 10
+[05:50:04] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[05:50:04] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[05:50:04] [Server thread/INFO]: Chunks to Grow per Tick: 650
+[05:50:04] [Server thread/INFO]: Clear tick list: false
+[05:50:04] [Server thread/INFO]: Experience Merge Radius: 3.0
+[05:50:04] [Server thread/INFO]: -------- World Settings For [Survival_the_end] --------
+[05:50:04] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[05:50:04] [Server thread/INFO]: Anti X-Ray: true
+[05:50:04] [Server thread/INFO]: 	Engine Mode: 1
+[05:50:04] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[05:50:04] [Server thread/INFO]: 	Replace Blocks: [1, 5]
+[05:50:04] [Server thread/INFO]: Mob Spawn Range: 4
+[05:50:04] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[05:50:04] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[05:50:04] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[05:50:04] [Server thread/INFO]: Cane Growth Modifier: 100%
+[05:50:04] [Server thread/INFO]: Melon Growth Modifier: 100%
+[05:50:04] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[05:50:04] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[05:50:04] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[05:50:04] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[05:50:04] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[05:50:04] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[05:50:04] [Server thread/INFO]: Random Lighting Updates: false
+[05:50:04] [Server thread/INFO]: Structure Info Saving: true
+[05:50:04] [Server thread/INFO]: Sending up to 10 chunks per packet
+[05:50:04] [Server thread/INFO]: Max TNT Explosions: 100
+[05:50:04] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[05:50:04] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[05:50:04] [Server thread/INFO]: Item Merge Radius: 2.5
+[05:50:04] [Server thread/INFO]: Item Despawn Rate: 6000
+[05:50:04] [Server thread/INFO]: Max Entity Collisions: 8
+[05:50:04] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[05:50:04] [Server thread/INFO]: View Distance: 10
+[05:50:04] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[05:50:04] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[05:50:04] [Server thread/INFO]: Chunks to Grow per Tick: 650
+[05:50:04] [Server thread/INFO]: Clear tick list: false
+[05:50:04] [Server thread/INFO]: Experience Merge Radius: 3.0
+[05:50:04] [Server thread/INFO]: Preparing start region for level 0 (Seed: -2411726137688199299)
+[05:50:06] [Server thread/INFO]: Preparing spawn area: 1%
+[05:50:07] [Server thread/INFO]: Preparing spawn area: 3%
+[05:50:08] [Server thread/INFO]: Preparing spawn area: 4%
+[05:50:09] [Server thread/INFO]: Preparing spawn area: 4%
+[05:50:11] [Server thread/INFO]: Preparing spawn area: 6%
+[05:50:12] [Server thread/INFO]: Preparing spawn area: 7%
+[05:50:13] [Server thread/INFO]: Preparing spawn area: 8%
+[05:50:14] [Server thread/INFO]: Preparing spawn area: 8%
+[05:50:15] [Server thread/INFO]: Preparing spawn area: 9%
+[05:50:16] [Server thread/INFO]: Preparing spawn area: 10%
+[05:50:17] [Server thread/INFO]: Preparing spawn area: 10%
+[05:50:18] [Server thread/INFO]: Preparing spawn area: 11%
+[05:50:19] [Server thread/INFO]: Preparing spawn area: 12%
+[05:50:20] [Server thread/INFO]: Preparing spawn area: 14%
+[05:50:22] [Server thread/INFO]: Preparing spawn area: 16%
+[05:50:23] [Server thread/INFO]: Preparing spawn area: 20%
+[05:50:24] [Server thread/INFO]: Preparing spawn area: 24%
+[05:50:25] [Server thread/INFO]: Preparing spawn area: 29%
+[05:50:26] [Server thread/INFO]: Preparing spawn area: 34%
+[05:50:27] [Server thread/INFO]: Preparing spawn area: 37%
+[05:50:28] [Server thread/INFO]: Preparing spawn area: 38%
+[05:50:31] [Server thread/INFO]: Preparing spawn area: 38%
+[05:50:32] [Server thread/INFO]: Preparing spawn area: 41%
+[05:50:33] [Server thread/INFO]: Preparing spawn area: 43%
+[05:50:34] [Server thread/INFO]: Preparing spawn area: 46%
+[05:50:36] [Server thread/INFO]: Preparing spawn area: 51%
+[05:50:37] [Server thread/INFO]: Preparing spawn area: 54%
+[05:50:38] [Server thread/INFO]: Preparing spawn area: 55%
+[05:50:39] [Server thread/INFO]: Preparing spawn area: 56%
+[05:50:40] [Server thread/INFO]: Preparing spawn area: 57%
+[05:50:41] [Server thread/INFO]: Preparing spawn area: 59%
+[05:50:43] [Server thread/INFO]: Preparing spawn area: 60%
+[05:50:44] [Server thread/INFO]: Preparing spawn area: 62%
+[05:50:45] [Server thread/INFO]: Preparing spawn area: 63%
+[05:50:46] [Server thread/INFO]: Preparing spawn area: 64%
+[05:50:47] [Server thread/INFO]: Preparing spawn area: 64%
+[05:50:48] [Server thread/INFO]: Preparing spawn area: 65%
+[05:50:50] [Server thread/INFO]: Preparing spawn area: 68%
+[05:50:51] [Server thread/INFO]: Preparing spawn area: 69%
+[05:50:52] [Server thread/INFO]: Preparing spawn area: 72%
+[05:50:53] [Server thread/INFO]: Preparing spawn area: 74%
+[05:50:54] [Server thread/INFO]: Preparing spawn area: 76%
+[05:50:55] [Server thread/INFO]: Preparing spawn area: 78%
+[05:50:56] [Server thread/INFO]: Preparing spawn area: 80%
+[05:50:58] [Server thread/INFO]: Preparing spawn area: 80%
+[05:50:59] [Server thread/INFO]: Preparing spawn area: 81%
+[05:51:00] [Server thread/INFO]: Preparing spawn area: 83%
+[05:51:01] [Server thread/INFO]: Preparing spawn area: 84%
+[05:51:02] [Server thread/INFO]: Preparing spawn area: 88%
+[05:51:03] [Server thread/INFO]: Preparing spawn area: 89%
+[05:51:04] [Server thread/INFO]: Preparing spawn area: 92%
+[05:51:05] [Server thread/INFO]: Preparing spawn area: 93%
+[05:51:06] [Server thread/INFO]: Preparing spawn area: 96%
+[05:51:08] [Server thread/INFO]: Preparing spawn area: 97%
+[05:51:09] [Server thread/INFO]: Preparing spawn area: 99%
+[05:51:09] [Server thread/INFO]: Preparing start region for level 1 (Seed: -2411726137688199299)
+[05:51:10] [Server thread/INFO]: Preparing spawn area: 5%
+[05:51:11] [Server thread/INFO]: Preparing spawn area: 5%
+[05:51:12] [Server thread/INFO]: Preparing spawn area: 9%
+[05:51:13] [Server thread/INFO]: Preparing spawn area: 15%
+[05:51:15] [Server thread/INFO]: Preparing spawn area: 21%
+[05:51:18] [Server thread/INFO]: Preparing spawn area: 25%
+[05:51:19] [Server thread/INFO]: Preparing spawn area: 32%
+[05:51:20] [Server thread/INFO]: Preparing spawn area: 40%
+[05:51:21] [Server thread/INFO]: Preparing spawn area: 48%
+[05:51:22] [Server thread/INFO]: Preparing spawn area: 50%
+[05:51:24] [Server thread/INFO]: Preparing spawn area: 53%
+[05:51:25] [Server thread/INFO]: Preparing spawn area: 59%
+[05:51:26] [Server thread/INFO]: Preparing spawn area: 67%
+[05:51:27] [Server thread/INFO]: Preparing spawn area: 79%
+[05:51:28] [Server thread/INFO]: Preparing spawn area: 86%
+[05:51:30] [Server thread/INFO]: Preparing spawn area: 91%
+[05:51:31] [Server thread/INFO]: Preparing spawn area: 97%
+[05:51:31] [Server thread/INFO]: Preparing start region for level 2 (Seed: -2411726137688199299)
+[05:51:32] [Server thread/INFO]: Preparing spawn area: 18%
+[05:51:33] [Server thread/INFO]: Preparing spawn area: 27%
+[05:51:34] [Server thread/INFO]: Preparing spawn area: 36%
+[05:51:35] [Server thread/INFO]: Preparing spawn area: 42%
+[05:51:36] [Server thread/INFO]: Preparing spawn area: 48%
+[05:51:37] [Server thread/INFO]: Preparing spawn area: 55%
+[05:51:38] [Server thread/INFO]: Preparing spawn area: 68%
+[05:51:39] [Server thread/INFO]: Preparing spawn area: 84%
+[05:51:40] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v6.1;no_git_id
+[05:51:47] [Server thread/INFO]: WEPIF: Updated config file
+[05:51:47] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[05:51:49] [Server thread/INFO]: [WorldEdit] Using com.sk89q.worldedit.bukkit.adapter.impl.Spigot_v1_8_R3 as the Bukkit adapter
+[05:51:49] [Server thread/INFO]: [AsyncWorldEdit] Enabling AsyncWorldEdit v2.2.2
+[05:51:52] [Server thread/INFO]: [AsyncWorldEdit] BlocksHub plugin not found.
+[05:51:53] [Server thread/INFO]: [AsyncWorldEdit] PlotMeFix set to class org.primesoft.asyncworldedit.plotme.NullFix
+[05:51:53] [Server thread/INFO]: [AsyncWorldEditInjector] New class factory set to: org.primesoft.asyncworldedit.injector.async.AsyncClassFactory
+[05:52:07] [Server thread/INFO]: [AsyncWorldEdit] You have the latest version of the plugin.
+[05:52:08] [Server thread/INFO]: [AsyncWorldEdit] Enabled
+[05:52:08] [Server thread/INFO]: [WorldGuard] Enabling WorldGuard v6.1
+[05:52:12] [Server thread/INFO]: [WorldGuard] (Survival) TNT ignition is PERMITTED.
+[05:52:12] [Server thread/INFO]: [WorldGuard] (Survival) Lighters are PERMITTED.
+[05:52:12] [Server thread/INFO]: [WorldGuard] (Survival) Lava fire is blocked.
+[05:52:12] [Server thread/INFO]: [WorldGuard] (Survival) Fire spread is UNRESTRICTED.
+[05:52:12] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'Survival'
+[05:52:12] [Server thread/INFO]: [WorldGuard] (Survival_nether) TNT ignition is PERMITTED.
+[05:52:12] [Server thread/INFO]: [WorldGuard] (Survival_nether) Lighters are PERMITTED.
+[05:52:12] [Server thread/INFO]: [WorldGuard] (Survival_nether) Lava fire is blocked.
+[05:52:12] [Server thread/INFO]: [WorldGuard] (Survival_nether) Fire spread is UNRESTRICTED.
+[05:52:12] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'Survival_nether'
+[05:52:12] [Server thread/INFO]: [WorldGuard] (Survival_the_end) TNT ignition is PERMITTED.
+[05:52:12] [Server thread/INFO]: [WorldGuard] (Survival_the_end) Lighters are PERMITTED.
+[05:52:12] [Server thread/INFO]: [WorldGuard] (Survival_the_end) Lava fire is blocked.
+[05:52:12] [Server thread/INFO]: [WorldGuard] (Survival_the_end) Fire spread is UNRESTRICTED.
+[05:52:12] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'Survival_the_end'
+[05:52:12] [Server thread/INFO]: [WorldGuard] Loading region data...
+[05:52:15] [Server thread/INFO]: [BungeePermsBukkitBridge] Enabling BungeePermsBukkitBridge v1.0.0
+[05:52:15] [Server thread/INFO]: [BungeePermsBukkitBridge] Injection of BungeepermsBukkit into WorldEdit
+[05:52:15] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[05:52:15] [Server thread/INFO]: Done (136.426s)! For help, type "help" or "?"

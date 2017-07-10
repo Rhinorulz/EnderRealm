@@ -1,0 +1,160 @@
+#######################################################################
+#                     TheGreatSwordArtOnlineRPG                       #
+# 								SETTINGS                 			  #
+#######################################################################
+
+######################   MAIN CARDINAL SYSTEMS ########################
+
+#***********************   Performance booster  ***********************
+
+# Enable this to separate plug-in worlds from other worlds.
+world-separator: true
+
+#***********************   Select game system  ************************
+
+# Enable this to link start and join floor 1. You have to beat all floors (1-100) to win the game.
+sao-floor-system: true
+# Enable this to link start and join your selected race. Become the strongest race and enjoy the flights.
+alo-race-system: false
+# Enable this to link start and join a fix spawnpoint. Unlock weapons and skills and become the best player.
+ggo-gun-system: false
+# Enable this to use the features of the plugin but without 'link start'.
+classic-rpg-system: false
+
+# WARNING: You can only enable one system at one time, otherwise the plug-in shuts down. 
+# The related features like guns, magic, bows are enabled for every system.
+
+######################   GENERAL SETTINGS ########################
+  
+#***********************  All settings what are enabled when players 'link start'.  ***********************
+login:
+  gamemode: ADVENTURE
+  spawn-last-location: true
+  messages:
+    screen:
+      enabled: true
+      title: '&6TheGreatSwordArtOnlineRPG'
+      subtitle: 
+        1: '&bLoading player resources ... '
+        2: '&bLoading custom entities ... '
+        3: '&bJoining server ... '
+    announcement:
+      enabled: false
+      text: 'Player <player> has joined SwordArtOnlineRPG.'
+#***********************  All settings what are enabled when players 'link stops'.  ************************
+logout:
+  gamemode: ADVENTURE
+  messages:
+    announcement:
+      enabled: false
+      text: 'Player <player> has left SwordArtOnlineRPG.'
+  location: 
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    yaw: 0.0
+    pitch: 0.0
+    world: world	
+#***********************  All settings what are enabled when an item despawns/breaks or an entity/player dies.  ************************
+destroying-effect:
+    itemdespawn: true
+    playerdeath: true
+    entitydeath: true
+    effect:
+      type: FIREWORKS_SPARK
+      amount: 50
+      speed: 0.1
+      size:
+        x: 2.0
+        y: 2.0
+        z: 2.0
+    sound:
+      type: ANVIL_BREAK
+      volume: 1.0
+      pitch: 1.0 
+#***********************  All settings what are enabled when a player dies.  ************************
+player-death:
+   keepinventory: true
+   no-drops: false
+   complete-inventory-reset: false
+   lose-nextlevel-xp: false
+   kick:
+     enabled: false
+     minutes-until-rejoin: 60
+   bann:
+     enabled: false	  
+#***********************  All settings what items a player get on 'link start'.  ************************
+inventory-items:
+  menu: 
+    enabled: true
+    slot: 4
+  social: 
+    enabled: true
+    slot: 5
+  scoreboard:
+    enabled: true
+    slot: 6
+  equipment: 
+    enabled: true
+    slot: 7
+  skills: 
+    enabled: true
+    slot: 8
+#***********************  All settings what do not belong to a specifc category.  ************************
+random-settings:
+  commandblocker: false
+  worldprotection: false  	   
+######################   SAO-FLOOR-SYSTEM SETTINGS ########################  
+sao:
+  floor-beat:
+    screen-message:
+        enabled: true
+        title: '&cCongratulation'
+        subtitle: '&lYou have beaten floor <floorid>.'
+    announcement:
+        enabled: false
+        text: 'Player <player> has beaten floor <floorid>.'
+    automatic-teleport: true
+  floor-teleport:
+    teleport-delay: 3
+    enabled: true
+    jump: true
+    effect:
+      type: PORTAL
+      amount: 100
+      speed: 0.1
+      size:
+        x: 2.0
+        y: 2.0
+        z: 2.0
+    sound:
+      type: ENDERMAN_TELEPORT
+      volume: 1.0
+      pitch: 1.0 
+######################   ALO-RACE-SYSTEM SETTINGS ########################  
+alo:
+  race-join:
+    announcement:
+        enabled: false
+        text: 'Player <player> joined race <race>.'
+######################   SKILL-API SETTINGS ###############################  
+# These settings require the plugin 'SkillAPI' to work.
+skillapi:
+  inventory-items:
+    skillmenu: 
+      enabled: false
+      slot: 1
+  auto:
+     insert-class-skills-in-skillbar: false
+     select-race-by-class: false
+######################   PETS SETTINGS ###############################  
+# These settings require the plugin 'EchoPet' to work.
+echopet:
+  inventory-items:
+    petmenu: 
+      enabled: false
+      slot: 2
+#######################################################################
+#                     TheGreatSwordArtOnlineRPG                       #
+# 								SETTINGS                 			  #
+#######################################################################

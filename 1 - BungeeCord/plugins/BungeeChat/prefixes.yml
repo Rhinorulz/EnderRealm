@@ -1,0 +1,5 @@
+#Give players a prefix, if no prefix is set they will get the default one.
+Default: "&7[Member] &r"
+
+Prefixes:
+   shawn_ian: "&7[&eDeveloper&7] &r"

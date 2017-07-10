@@ -1,0 +1,169 @@
+#    PlotMenu
+#     v1.1
+#     Made by  
+#   Johnanater
+# 
+#================
+# Needs SkQuery!
+#================
+
+Options:
+	#This is the command to show the main menu (No /)
+	PlotMenuCmd: plotmenu
+	
+	#What should the prefix be?
+	Prefix: &c&l[PlotMenu]
+	
+	#What should the name be? (Changes inventory name, chat name, etc)
+	PluginName: &cPlotMenu
+	
+	#What should people see if they have no permission?
+	NoPermissionMsg: Unknown command. Type "/help" for help.
+	
+	#What should the filler item be?
+	FillerItem: stained glass pane
+	FillerItemYes: green glass
+	FillerItemNo: red glass
+	
+	#What should the item be for the plot menu?
+	Item: clock
+	
+	#Should PlotMenu work in every world?
+	#(True = Works in every world, False = works in the world(s) listed below)
+	#Caps matter!
+	AllWorlds: False
+	
+	#What world should it work in? (If above is False)
+	#Caps matter!
+	TrueWorlds: plots
+	
+	#What slot should the item be in? Remember the first slot is 0!
+	ItemSlot: 8
+	
+	#DON'T TOUCH THIS
+	Version: 1.1
+
+#=============================================================	
+#Startup/Shutdown Messages/Update Checker
+on load:
+	send "{@Prefix} {@PluginName} has been enabled." to console
+	
+	#Update Checker
+	set {_ver} to text from url "https://dropbox.com/s/luvcgrnyyb2qjpj/ver.txt?dl=1"
+	if {_ver} isn't "{@Version}":
+		message "{@Prefix} {@PluginName} is outdated!" to console
+		message "{@Prefix} The latest version is %{_ver}%, but you are running {@Version}!" to console
+on unload:
+	send "{@Prefix} {@PluginName} has been disabled." to console
+#=============================================================
+#Commands
+
+#The menu!
+command /{@PlotMenuCmd}: #Main Menu
+# Remove the 2 number signs below to add a permission
+#	permission: plotmenu.menu
+#	permission message: {@NoPermissionMsg}
+	executable by: players
+	aliases: /plotm # What should the alias be?
+	trigger:
+		open chest with 5 row named "{@PluginName}" to player
+		wait 1 tick
+		
+		#All of the filler blocks
+		loop integers from 0 to 44:
+			format slot loop-number of player with {@FillerItem} named "&r" to be unstealable
+			
+		#All the items (Replacers filler blocks)
+		format slot 10 of player with grass named "&a&aClaim this plot" to close then run [execute player command "/plot claim"]
+		format slot 19 of player with grass named "&aClaim a random plot" to close then run [execute player command "/plot auto"]
+		format slot 28 of player with sign item named "&aPlot info" to close then run [execute player command "/plot info"]
+		format slot 12 of player with dirt:2 named "&aDelete your plot" to close then run [execute player command "/plotmenu-del"]
+		format slot 21 of player with dirt:1 named "&aClear your plot" to close then run [execute player command "/plotmenu-clear"]
+		format slot 30 of player with cake item named "&aRate this plot" to close then run [execute player command "/plotmenu-rate"]
+		format slot 14 of player with green wool named "&aAdd friend" to close then run [execute player command "/plot add"]
+		format slot 23 of player with red wool named "&aRemove friend" to close then run [execute player command "/plot remove"]
+		format slot 32 of player with ender pearl named "&aTPA to someone" to close then run [execute player command "/tpa"]
+		format slot 16 of player with bed item named "&aTeleport to your plot" to close then run [execute player command "/plot home"]
+		format slot 25 of player with minecart named "&aGoto another plot" to close then run [execute player command "/plot tp "]
+		format slot 34 of player with beacon named "&aGoto spawn" to close then run [execute player command "/spawn"]
+		
+
+#Plot deletion confirmation
+command /plotmenu-del: #Deleting Plots
+	trigger:
+		wait 3 ticks
+		open chest with 5 row named "&4Are you sure?" to player
+		loop integers from 0 to 44:
+			format slot loop-number of player with {@FillerItem} named "&r" to be unstealable
+		loop integers from 14 to 16:
+			format slot loop-number of player with {@FillerItemYes} named "&aYes, proceed" to close then run [execute player command "/plot del"]
+		loop integers from 23 to 25:
+			format slot loop-number of player with {@FillerItemYes} named "&aYes, proceed" to close then run [execute player command "/plot del"]
+		loop integers from 32 to 34:
+			format slot loop-number of player with {@FillerItemYes} named "&aYes, proceed" to close then run [execute player command "/plot del"]
+		loop integers from 10 to 12:
+			format slot loop-number of player with {@FillerItemNo} named "&4No, cancel" to close
+		loop integers from 19 to 21:
+			format slot loop-number of player with {@FillerItemNo} named "&4No, cancel" to close
+		loop integers from 28 to 30:
+			format slot loop-number of player with {@FillerItemNo} named "&4No, cancel" to close
+
+#Plot clearation confirmation
+command /plotmenu-clear: #Clearing plot
+	trigger:
+		wait 3 ticks
+		open chest with 5 row named "&4Are you sure?" to player
+		loop integers from 0 to 44:
+			format slot loop-number of player with {@FillerItem} named "&r" to be unstealable
+		loop integers from 14 to 16:
+			format slot loop-number of player with {@FillerItemYes} named "&aYes, proceed" to close then run [execute player command "/plot clear"]
+		loop integers from 23 to 25:
+			format slot loop-number of player with {@FillerItemYes} named "&aYes, proceed" to close then run [execute player command "/plot clear"]
+		loop integers from 32 to 34:
+			format slot loop-number of player with {@FillerItemYes} named "&aYes, proceed" to close then run [execute player command "/plot clear"]
+		loop integers from 10 to 12:
+			format slot loop-number of player with {@FillerItemNo} named "&4No, cancel" to close
+		loop integers from 19 to 21:
+			format slot loop-number of player with {@FillerItemNo} named "&4No, cancel" to close
+		loop integers from 28 to 30:
+			format slot loop-number of player with {@FillerItemNo} named "&4No, cancel" to close
+			
+#Plot rating menu
+command /plotmenu-rate: #Rating system
+	trigger:
+		wait 3 ticks
+		open chest with 2 row named "Pick one" to player
+		loop integers from 9 to 17:
+			format slot loop-number of player with {@FillerItem} named "&r" to be unstealable 
+		format slot 0 of player with red glass pane named "1/10" to close then run [execute player command "/plot rate 1"]
+		format slot 1 of player with orange glass pane named "2/10" to close then run [execute player command "/plot rate 2"]
+		format slot 2 of player with yellow glass pane named "3/10" to close then run [execute player command "/plot rate 3"]
+		format slot 3 of player with yellow glass pane named "4/10" to close then run [execute player command "/plot rate 4"]
+		format slot 4 of player with gray glass named "5/10" to close then run [execute player command "/plot rate 5"]
+		format slot 5 of player with green glass named "6/10" to close then run [execute player command "/plot rate 6"]
+		format slot 6 of player with green glass named "7/10" to close then run [execute player command "/plot rate 7"]
+		format slot 7 of player with light green glass named "8/10" to close then run [execute player command "/plot rate 8"]
+		format slot 8 of player with light green glass named "9/10" to close then run [execute player command "/plot rate 9"]
+		format slot 13 of player with pink glass pane named "10/10" to close then run [execute player command "/plot rate 10"]
+
+#=============================================================
+#Give players the item on join		
+on join:
+	if "{@AllWorlds}" is "False":
+		#To add multiple worlds just add:  or "your world here"
+		player is in "{@TrueWorlds}":
+			set slot {@ItemSlot} of player to {@Item} named "{@PluginName}"
+
+on drop:
+	if event-item is {@Item}:
+		if display name of event-item contains "{@PluginName}":
+			cancel event
+#=============================================================
+#Check if players open the menu
+on right click:
+	if player is holding {@Item}:
+		loop all items in player's inventory:
+			if display name of loop-item contains "{@PluginName}":
+				execute player command "{@PlotMenuCmd}"
+				stop loop
+#=============================================================

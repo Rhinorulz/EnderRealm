@@ -1,0 +1,240 @@
+brownies:
+  firstCompleted: 0
+  timesCompleted: 0
+  timesCompletedSinceTimer: 0
+masterfarmer:
+  firstCompleted: 0
+  timesCompleted: 0
+  timesCompletedSinceTimer: 0
+beaconator:
+  firstCompleted: 0
+  timesCompleted: 0
+  timesCompletedSinceTimer: 0
+industrial-farmer:
+  firstCompleted: 0
+  timesCompleted: 0
+  timesCompletedSinceTimer: 0
+carpenter:
+  firstCompleted: 1493595045269
+  timesCompleted: 1
+  timesCompletedSinceTimer: 1
+topchef:
+  firstCompleted: 0
+  timesCompleted: 0
+  timesCompletedSinceTimer: 0
+pastafunghi:
+  firstCompleted: 0
+  timesCompleted: 0
+  timesCompletedSinceTimer: 0
+homeowner:
+  firstCompleted: 0
+  timesCompleted: 0
+  timesCompletedSinceTimer: 0
+apfelstrudel:
+  firstCompleted: 0
+  timesCompleted: 0
+  timesCompletedSinceTimer: 0
+expertfarmer:
+  firstCompleted: 0
+  timesCompleted: 0
+  timesCompletedSinceTimer: 0
+firefighter:
+  firstCompleted: 0
+  timesCompleted: 0
+  timesCompletedSinceTimer: 0
+torchmaker:
+  firstCompleted: 1493594785952
+  timesCompleted: 1
+  timesCompletedSinceTimer: 1
+cobblestonegenerator:
+  firstCompleted: 1493565431799
+  timesCompleted: 1
+  timesCompletedSinceTimer: 1
+village-people:
+  firstCompleted: 0
+  timesCompleted: 0
+  timesCompletedSinceTimer: 0
+pearlcollector:
+  firstCompleted: 0
+  timesCompleted: 0
+  timesCompletedSinceTimer: 0
+novicebuilder:
+  firstCompleted: 1493594235162
+  timesCompleted: 1
+  timesCompletedSinceTimer: 1
+horsingaround:
+  firstCompleted: 0
+  timesCompleted: 0
+  timesCompletedSinceTimer: 0
+baker:
+  firstCompleted: 0
+  timesCompleted: 0
+  timesCompletedSinceTimer: 0
+ironforge:
+  firstCompleted: 0
+  timesCompleted: 0
+  timesCompletedSinceTimer: 0
+woolcollector:
+  firstCompleted: 0
+  timesCompleted: 0
+  timesCompletedSinceTimer: 0
+slimefarmer:
+  firstCompleted: 0
+  timesCompleted: 0
+  timesCompletedSinceTimer: 0
+melonfarmer:
+  firstCompleted: 1493594571809
+  timesCompleted: 1
+  timesCompletedSinceTimer: 1
+netherportal:
+  firstCompleted: 0
+  timesCompleted: 0
+  timesCompletedSinceTimer: 0
+explorer:
+  firstCompleted: 0
+  timesCompleted: 0
+  timesCompletedSinceTimer: 0
+applecollector:
+  firstCompleted: 1493543960768
+  timesCompleted: 1
+  timesCompletedSinceTimer: 1
+carrotfarmer:
+  firstCompleted: 0
+  timesCompleted: 0
+  timesCompletedSinceTimer: 0
+chocolate:
+  firstCompleted: 0
+  timesCompleted: 0
+  timesCompletedSinceTimer: 0
+potatofarmer:
+  firstCompleted: 0
+  timesCompleted: 0
+  timesCompletedSinceTimer: 0
+skylord:
+  firstCompleted: 0
+  timesCompleted: 0
+  timesCompletedSinceTimer: 0
+pumpkinfarmer:
+  firstCompleted: 1493594482654
+  timesCompleted: 1
+  timesCompletedSinceTimer: 1
+greenthumb:
+  firstCompleted: 0
+  timesCompleted: 0
+  timesCompletedSinceTimer: 0
+seacaptain:
+  firstCompleted: 0
+  timesCompleted: 0
+  timesCompletedSinceTimer: 0
+hutspot:
+  firstCompleted: 0
+  timesCompleted: 0
+  timesCompletedSinceTimer: 0
+sugarfarmer:
+  firstCompleted: 1493594614868
+  timesCompleted: 1
+  timesCompletedSinceTimer: 1
+monsterslayer:
+  firstCompleted: 0
+  timesCompleted: 0
+  timesCompletedSinceTimer: 0
+smorrebrod:
+  firstCompleted: 0
+  timesCompleted: 0
+  timesCompletedSinceTimer: 0
+netherrack:
+  firstCompleted: 0
+  timesCompleted: 0
+  timesCompletedSinceTimer: 0
+torchbearer:
+  firstCompleted: 0
+  timesCompleted: 0
+  timesCompletedSinceTimer: 0
+witherhunter:
+  firstCompleted: 0
+  timesCompleted: 0
+  timesCompletedSinceTimer: 0
+glassmaker:
+  firstCompleted: 0
+  timesCompleted: 0
+  timesCompletedSinceTimer: 0
+cookielover:
+  firstCompleted: 0
+  timesCompleted: 0
+  timesCompletedSinceTimer: 0
+toolmaker:
+  firstCompleted: 1493594811406
+  timesCompleted: 1
+  timesCompletedSinceTimer: 1
+masterbuilder:
+  firstCompleted: 0
+  timesCompleted: 0
+  timesCompletedSinceTimer: 0
+fishandchips:
+  firstCompleted: 0
+  timesCompleted: 0
+  timesCompletedSinceTimer: 0
+cactusfarmer:
+  firstCompleted: 1493594444807
+  timesCompleted: 1
+  timesCompletedSinceTimer: 1
+brickleveler:
+  firstCompleted: 0
+  timesCompleted: 0
+  timesCompletedSinceTimer: 0
+stonebrickmaker:
+  firstCompleted: 1493595139669
+  timesCompleted: 1
+  timesCompletedSinceTimer: 1
+technician:
+  firstCompleted: 0
+  timesCompleted: 0
+  timesCompletedSinceTimer: 0
+shroompicker:
+  firstCompleted: 1493594566619
+  timesCompleted: 1
+  timesCompletedSinceTimer: 1
+adeptbuilder:
+  firstCompleted: 1493594241737
+  timesCompleted: 1
+  timesCompletedSinceTimer: 1
+wheatfarmer:
+  firstCompleted: 1493594568431
+  timesCompleted: 1
+  timesCompletedSinceTimer: 1
+netherfortress:
+  firstCompleted: 0
+  timesCompleted: 0
+  timesCompletedSinceTimer: 0
+animalfarm:
+  firstCompleted: 0
+  timesCompleted: 0
+  timesCompletedSinceTimer: 0
+expertbuilder:
+  firstCompleted: 1493594291099
+  timesCompleted: 1
+  timesCompletedSinceTimer: 1
+emeraldcollector:
+  firstCompleted: 0
+  timesCompleted: 0
+  timesCompletedSinceTimer: 0
+monsterfarm:
+  firstCompleted: 0
+  timesCompleted: 0
+  timesCompletedSinceTimer: 0
+goldfinger:
+  firstCompleted: 0
+  timesCompleted: 0
+  timesCompletedSinceTimer: 0
+lumberjack:
+  firstCompleted: 1493594747632
+  timesCompleted: 1
+  timesCompletedSinceTimer: 1
+fisherman:
+  firstCompleted: 0
+  timesCompleted: 0
+  timesCompletedSinceTimer: 0
+maestro:
+  firstCompleted: 0
+  timesCompleted: 0
+  timesCompletedSinceTimer: 0

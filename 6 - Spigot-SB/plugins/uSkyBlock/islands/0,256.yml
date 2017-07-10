@@ -1,0 +1,35 @@
+general:
+  level: 248.201
+  warpLocationX: 0
+  warpLocationY: 0
+  warpLocationZ: 0
+  warpActive: false
+  regionVersion: 13 en
+  schematicName: default
+  biome: OCEAN
+blocks:
+  leafBreaks: 1
+version: 3
+log:
+- 1493594916547;{0} changed the island biome to {1};jamesdabeast50;OCEAN
+- 1493590056055;The island has been created.
+- 1493590055390;The island has been created.
+party:
+  leader: jamesdabeast50
+  leader-uuid: 55459249-4565-345c-92b4-2ab82149712f
+  members:
+    55459249-4565-345c-92b4-2ab82149712f:
+      canChangeBiome: true
+      canToggleLock: true
+      canChangeWarp: true
+      canToggleWarp: true
+      canInviteOthers: true
+      canKickOthers: true
+      canBanOthers: true
+      name: jamesdabeast50
+      maxAnimals: 48
+      maxMonsters: 50
+      maxVillagers: 16
+      maxGolems: 5
+      maxPartySizePermission: 8
+  currentSize: 1

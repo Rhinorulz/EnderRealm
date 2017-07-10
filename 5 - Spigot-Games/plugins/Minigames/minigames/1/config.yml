@@ -1,0 +1,15 @@
+'1':
+  loadouts:
+    default: {}
+  reward-scheme: standard
+  rewards: {}
+  flags: []
+  startpos:
+    '0':
+      x: -23.51634832102058
+      y: 86.10728252351777
+      z: 128.8496096033147
+      world: GameHub
+      yaw: 254.54956
+      pitch: 60.74996
+  scoreboards: {}

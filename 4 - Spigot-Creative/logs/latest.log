@@ -1,0 +1,205 @@
+[15:40:54] [Server thread/INFO]: Starting minecraft server version 1.11.2
+[15:40:54] [Server thread/INFO]: Loading properties
+[15:40:54] [Server thread/INFO]: Default game type: SURVIVAL
+[15:40:55] [Server thread/INFO]: This server is running CraftBukkit version git-Spigot-3fb9445-6e3cec8 (MC: 1.11.2) (Implementing API version 1.11.2-R0.1-SNAPSHOT)
+[15:40:55] [Server thread/INFO]: Debug logging is disabled
+[15:40:55] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[15:40:55] [Server thread/INFO]: Using 4 threads for Netty based IO
+[15:40:55] [Server thread/INFO]: Generating keypair
+[15:40:55] [Server thread/INFO]: Starting Minecraft server on *:25568
+[15:40:55] [Server thread/INFO]: Using default channel type
+[15:40:55] [Server thread/INFO]: Set PluginClassLoader as parallel capable
+[15:40:56] [Server thread/INFO]: [AsyncWorldEditInjector] Loading AsyncWorldEditInjector v3.4.9
+[15:40:56] [Server thread/INFO]: [NoCheatPlus] Loading NoCheatPlus v3.15.0-SNAPSHOT-sMD5NET-b1082
+[15:40:56] [Server thread/INFO]: [NoCheatPlus] onLoad: Early set up of static API, configuration, logging.
+[15:40:56] [Server thread/INFO]: [NoCheatPlus] Logging system initialized.
+[15:40:56] [Server thread/INFO]: [NoCheatPlus] Detected Minecraft version: 1.11.2
+[15:40:56] [Server thread/INFO]: [AsyncWorldEdit] Loading AsyncWorldEdit v3.4.9
+[15:40:56] [Server thread/INFO]: [Skript] Loading Skript v2.1.2
+[15:40:56] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v6.1.5;4651611
+[15:40:56] [Server thread/INFO]: [SkQuery] Loading SkQuery v3.21.4
+[15:40:56] [Server thread/INFO]: [PlotSquared] Loading PlotSquared v3.5.0-SNAPSHOT-95f8aaa
+[15:40:56] [Server thread/INFO]: [RedstoneClockPreventer2] Loading RedstoneClockPreventer2 v3.4.0
+[15:40:56] [Server thread/INFO]: [AsyncWorldEditInjector] Enabling AsyncWorldEditInjector v3.4.9
+[15:40:56] [Server thread/INFO]: [AsyncWorldEditInjector] Injector platform set to: InjectorBukkit
+[15:40:56] [Server thread/INFO]: [AsyncWorldEditInjector] Injecting WorldEdit classes...
+[15:40:56] [Server thread/INFO]: [AsyncWorldEditInjector] Class com.sk89q.worldedit.EditSession injected.
+[15:40:56] [Server thread/INFO]: [AsyncWorldEditInjector] Class com.sk89q.worldedit.function.operation.Operations injected.
+[15:40:56] [Server thread/INFO]: [AsyncWorldEditInjector] Class com.sk89q.worldedit.function.operation.ForwardExtentCopy injected.
+[15:40:56] [Server thread/INFO]: [AsyncWorldEditInjector] Class com.sk89q.worldedit.extent.clipboard.BlockArrayClipboard injected.
+[15:40:56] [Server thread/INFO]: [AsyncWorldEditInjector] Class com.sk89q.worldedit.command.FlattenedClipboardTransform injected.
+[15:40:56] [Server thread/INFO]: [AsyncWorldEditInjector] Class com.sk89q.worldedit.extent.clipboard.io.ClipboardFormat injected.
+[15:40:56] [Server thread/INFO]: [AsyncWorldEditInjector] Enabled
+[15:40:56] [Server thread/INFO]: [AsyncWorldEdit] Enabling AsyncWorldEdit v3.4.9
+[15:40:57] [Server thread/INFO]: [AsyncWorldEdit] Plugin installed
+[15:40:57] [Server thread/INFO]: [AsyncWorldEdit] Platform set to Bukkit API
+[15:40:57] [Server thread/INFO]: [AsyncWorldEdit] DirectChunkAPI adapter set to Spigot v1.11 R1
+[15:40:57] [Server thread/INFO]: [AsyncWorldEdit] PlotMeFix set to class org.primesoft.asyncworldedit.plotme.NullFix.
+[15:40:57] [Server thread/INFO]: [AsyncWorldEditInjector] New class factory set to: org.primesoft.asyncworldedit.injector.async.AsyncClassFactory
+[15:40:57] [Server thread/INFO]: [AsyncWorldEdit] Enabled
+[15:40:57] [Server thread/INFO]: [PlotSquared] Enabling PlotSquared v3.5.0-SNAPSHOT-95f8aaa
+[15:40:57] [Thread-8/INFO]: [AsyncWorldEdit] You have the latest version of the plugin.
+[15:40:58] [Server thread/INFO]: [0;30;1m[[0;33;22mP2[0;30;1m] [0;37;22m[0;33;22mMetrics enabled.[m
+[15:40:58] [Server thread/INFO]: [0;30;1m[[0;33;22mP2[0;30;1m] [0;37;22m [0;33;22mPlotSquared is using online UUIDs[m
+[15:40:59] [Server thread/INFO]: PlotSquared hooked into WorldEdit.[m
+[15:40:59] [Server thread/INFO]: [0;30;1m[[0;33;22mP2[0;30;1m] [0;37;22m[0;31;1mKey: [0;33;22mplot-expiry[0;31;1m, Value: [0;33;22mfalse[m
+[15:40:59] [Server thread/INFO]: [0;30;1m[[0;33;22mP2[0;30;1m] [0;37;22m[0;31;1mKey: [0;33;22mkill-road-mobs[0;31;1m, Value: [0;33;22mfalse[m
+[15:40:59] [Server thread/INFO]: [0;30;1m[[0;33;22mP2[0;30;1m] [0;37;22m[0;31;1mKey: [0;33;22mworldedit-restrictions[0;31;1m, Value: [0;33;22mtrue[m
+[15:40:59] [Server thread/INFO]: [0;30;1m[[0;33;22mP2[0;30;1m] [0;37;22m[0;31;1mKey: [0;33;22mdatabase-purger[0;31;1m, Value: [0;33;22mfalse[m
+[15:40:59] [Server thread/INFO]: [0;30;1m[[0;33;22mP2[0;30;1m] [0;37;22m[0;31;1mKey: [0;33;22meconomy[0;31;1m, Value: [0;33;22mtrue[m
+[15:40:59] [Server thread/INFO]: [0;30;1m[[0;33;22mP2[0;30;1m] [0;37;22m[0;31;1mKey: [0;33;22mblock-cache[0;31;1m, Value: [0;33;22mtrue[m
+[15:40:59] [Server thread/INFO]: [0;30;1m[[0;33;22mP2[0;30;1m] [0;37;22m[0;31;1mKey: [0;33;22mkill-road-vehicles[0;31;1m, Value: [0;33;22mfalse[m
+[15:40:59] [Server thread/INFO]: [0;30;1m[[0;33;22mP2[0;30;1m] [0;37;22m[0;31;1mKey: [0;33;22mpersistent-meta[0;31;1m, Value: [0;33;22mtrue[m
+[15:40:59] [Server thread/INFO]: [0;30;1m[[0;33;22mP2[0;30;1m] [0;37;22m[0;31;1mKey: [0;33;22mban-deleter[0;31;1m, Value: [0;33;22mfalse[m
+[15:40:59] [Server thread/INFO]: [0;30;1m[[0;33;22mP2[0;30;1m] [0;37;22m[0;31;1mKey: [0;33;22mupdater[0;31;1m, Value: [0;33;22mtrue[m
+[15:40:59] [Server thread/INFO]: [0;30;1m[[0;33;22mP2[0;30;1m] [0;37;22m[0;31;1mKey: [0;33;22mdatabase[0;31;1m, Value: [0;33;22mtrue[m
+[15:40:59] [Server thread/INFO]: [0;30;1m[[0;33;22mP2[0;30;1m] [0;37;22m[0;31;1mKey: [0;33;22mplotme-converter[0;31;1m, Value: [0;33;22mtrue[m
+[15:40:59] [Server thread/INFO]: [0;30;1m[[0;33;22mP2[0;30;1m] [0;37;22m[0;31;1mKey: [0;33;22mpermission-cache[0;31;1m, Value: [0;33;22mtrue[m
+[15:40:59] [Server thread/INFO]: [0;30;1m[[0;33;22mP2[0;30;1m] [0;37;22m[0;31;1mKey: [0;33;22mrating-cache[0;31;1m, Value: [0;33;22mtrue[m
+[15:40:59] [Server thread/INFO]: [0;30;1m[[0;33;22mP2[0;30;1m] [0;37;22m[0;31;1mKey: [0;33;22mcomment-notifier[0;31;1m, Value: [0;33;22mfalse[m
+[15:40:59] [Server thread/INFO]: [0;30;1m[[0;33;22mP2[0;30;1m] [0;37;22m[0;31;1mKey: [0;33;22mmetrics[0;31;1m, Value: [0;33;22mtrue[m
+[15:40:59] [Server thread/INFO]: [0;30;1m[[0;33;22mP2[0;30;1m] [0;37;22m[0;31;1mKey: [0;33;22mchunk-processor[0;31;1m, Value: [0;33;22mfalse[m
+[15:40:59] [Server thread/INFO]: [0;30;1m[[0;33;22mP2[0;30;1m] [0;37;22m[0;31;1mKey: [0;33;22muuid-cache[0;31;1m, Value: [0;33;22mtrue[m
+[15:40:59] [Server thread/INFO]: [0;30;1m[[0;33;22mP2[0;30;1m] [0;37;22m[0;31;1mKey: [0;33;22mevents[0;31;1m, Value: [0;33;22mtrue[m
+[15:40:59] [Server thread/INFO]: [0;30;1m[[0;33;22mP2[0;30;1m] [0;37;22m[0;31;1mKey: [0;33;22mcommands[0;31;1m, Value: [0;33;22mtrue[m
+[15:40:59] [Server thread/INFO]: [0;33;22mPlotSquared is now enabled[m
+[15:40:59] [Server thread/INFO]: [0;30;1m[[0;33;22mP2[0;30;1m] [0;37;22m[0;33;22mMetrics enabled.[m
+[15:40:59] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[15:40:59] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[15:40:59] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[15:40:59] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[15:40:59] [Server thread/INFO]: **** Beginning UUID conversion, this may take A LONG time ****
+[15:40:59] [Server thread/INFO]: Preparing level "plot"
+[15:40:59] [Server thread/INFO]: -------- World Settings For [plot] --------
+[15:40:59] [Server thread/INFO]: Item Merge Radius: 2.5
+[15:40:59] [Server thread/INFO]: Item Despawn Rate: 6000
+[15:40:59] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[15:40:59] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[15:40:59] [Server thread/INFO]: View Distance: 10
+[15:40:59] [Server thread/INFO]: Max TNT Explosions: 100
+[15:40:59] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[15:40:59] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[15:40:59] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[15:40:59] [Server thread/INFO]: Random Lighting Updates: false
+[15:40:59] [Server thread/INFO]: Structure Info Saving: true
+[15:40:59] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[15:40:59] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[15:40:59] [Server thread/INFO]: Experience Merge Radius: 3.0
+[15:40:59] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[15:40:59] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[15:40:59] [Server thread/INFO]: Cane Growth Modifier: 100%
+[15:40:59] [Server thread/INFO]: Melon Growth Modifier: 100%
+[15:40:59] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[15:40:59] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[15:40:59] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[15:40:59] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[15:40:59] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[15:40:59] [Server thread/INFO]: Vine Growth Modifier: 100%
+[15:40:59] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[15:40:59] [Server thread/INFO]: Mob Spawn Range: 4
+[15:40:59] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617 Monument: 10387313 Slime: 987234911
+[15:40:59] [Server thread/INFO]: BukkitPlotGenerator does not fully support: null[m
+[15:40:59] [Server thread/INFO]: -------- World Settings For [plot_the_end] --------
+[15:40:59] [Server thread/INFO]: Item Merge Radius: 2.5
+[15:40:59] [Server thread/INFO]: Item Despawn Rate: 6000
+[15:40:59] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[15:40:59] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[15:40:59] [Server thread/INFO]: View Distance: 10
+[15:40:59] [Server thread/INFO]: Max TNT Explosions: 100
+[15:40:59] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[15:40:59] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[15:40:59] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[15:40:59] [Server thread/INFO]: Random Lighting Updates: false
+[15:40:59] [Server thread/INFO]: Structure Info Saving: true
+[15:40:59] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[15:40:59] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[15:40:59] [Server thread/INFO]: Experience Merge Radius: 3.0
+[15:40:59] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[15:40:59] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[15:40:59] [Server thread/INFO]: Cane Growth Modifier: 100%
+[15:40:59] [Server thread/INFO]: Melon Growth Modifier: 100%
+[15:40:59] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[15:40:59] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[15:40:59] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[15:40:59] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[15:40:59] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[15:40:59] [Server thread/INFO]: Vine Growth Modifier: 100%
+[15:40:59] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[15:40:59] [Server thread/INFO]: Mob Spawn Range: 4
+[15:40:59] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617 Monument: 10387313 Slime: 987234911
+[15:40:59] [Server thread/INFO]: BukkitPlotGenerator does not fully support: null[m
+[15:40:59] [Server thread/INFO]: Preparing start region for level 0 (Seed: -3478721033113646297)
+[15:41:00] [Server thread/INFO]: Preparing spawn area: 60%
+[15:41:00] [Server thread/INFO]: Preparing start region for level 1 (Seed: 4282431260096147361)
+[15:41:01] [Server thread/INFO]: [NoCheatPlus] Enabling NoCheatPlus v3.15.0-SNAPSHOT-sMD5NET-b1082
+[15:41:01] [Server thread/INFO]: [NoCheatPlus] McAccess set to: 1.11-1.11.2 / Spigot-CB-1.11_R1
+[15:41:01] [Server thread/INFO]: [NoCheatPlus] Added block-info for Minecraft 1.5 blocks.
+[15:41:01] [Server thread/INFO]: [NoCheatPlus] Added block-info for Minecraft 1.6.1 blocks.
+[15:41:01] [Server thread/INFO]: [NoCheatPlus] Added block-info for Minecraft 1.7.2 blocks.
+[15:41:01] [Server thread/INFO]: [NoCheatPlus] Added block-info for Minecraft 1.8 blocks.
+[15:41:01] [Server thread/INFO]: [NoCheatPlus] Added block-info for Minecraft 1.9 blocks.
+[15:41:01] [Server thread/INFO]: [NoCheatPlus] Added block-info for Minecraft 1.10 blocks.
+[15:41:01] [Server thread/INFO]: [NoCheatPlus] Added block-info for Minecraft 1.11 blocks.
+[15:41:01] [Server thread/INFO]: [NoCheatPlus] Inventory checks: FastConsume is available, disabled InstantEat.
+[15:41:01] [Server thread/INFO]: [NoCheatPlus] Packet level access: ProtocolLib is not available.
+[15:41:01] [Server thread/INFO]: [NoCheatPlus] Force disable FastHeal on Minecraft 1.9 and later.
+[15:41:01] [Server thread/INFO]: [NoCheatPlus] Version 3.15.0-SNAPSHOT-sMD5NET-b1082 is enabled.
+[15:41:01] [Server thread/INFO]: [Skript] Enabling Skript v2.1.2
+[15:41:01] [Server thread/ERROR]: Error occurred while enabling Skript v2.1.2 (Is it up to date?)
+java.lang.NoSuchMethodError: org.bukkit.DyeColor.getData()B
+	at ch.njol.skript.util.Color.<clinit>(Color.java:82) ~[?:?]
+	at ch.njol.skript.SkriptCommand.<clinit>(SkriptCommand.java:60) ~[?:?]
+	at ch.njol.skript.Skript.onEnable(Skript.java:254) ~[?:?]
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:271) ~[spigot-1.11.2.jar:git-Spigot-3fb9445-6e3cec8]
+	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:337) [spigot-1.11.2.jar:git-Spigot-3fb9445-6e3cec8]
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:405) [spigot-1.11.2.jar:git-Spigot-3fb9445-6e3cec8]
+	at org.bukkit.craftbukkit.v1_11_R1.CraftServer.enablePlugin(CraftServer.java:376) [spigot-1.11.2.jar:git-Spigot-3fb9445-6e3cec8]
+	at org.bukkit.craftbukkit.v1_11_R1.CraftServer.enablePlugins(CraftServer.java:326) [spigot-1.11.2.jar:git-Spigot-3fb9445-6e3cec8]
+	at net.minecraft.server.v1_11_R1.MinecraftServer.t(MinecraftServer.java:421) [spigot-1.11.2.jar:git-Spigot-3fb9445-6e3cec8]
+	at net.minecraft.server.v1_11_R1.MinecraftServer.l(MinecraftServer.java:382) [spigot-1.11.2.jar:git-Spigot-3fb9445-6e3cec8]
+	at net.minecraft.server.v1_11_R1.MinecraftServer.a(MinecraftServer.java:337) [spigot-1.11.2.jar:git-Spigot-3fb9445-6e3cec8]
+	at net.minecraft.server.v1_11_R1.DedicatedServer.init(DedicatedServer.java:272) [spigot-1.11.2.jar:git-Spigot-3fb9445-6e3cec8]
+	at net.minecraft.server.v1_11_R1.MinecraftServer.run(MinecraftServer.java:544) [spigot-1.11.2.jar:git-Spigot-3fb9445-6e3cec8]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_131]
+[15:41:01] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v6.1.5;4651611
+[15:41:01] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[15:41:01] [Server thread/INFO]: [WorldEdit] Using com.sk89q.worldedit.bukkit.adapter.impl.Spigot_v1_11_R1 as the Bukkit adapter
+[15:41:01] [Server thread/INFO]: [AsyncWorldEdit] Initializing WorldEdit.
+[15:41:01] [Server thread/INFO]: [AsyncWorldEdit] Direct chunk commands...enabled
+[15:41:01] [Server thread/INFO]: [SkQuery] Enabling SkQuery v3.21.4
+[15:41:01] [Server thread/INFO]: [skQuery] Snooping enabled from com.w00tmast3r.skquery.SkQuery
+[15:41:01] [Server thread/INFO]: [skQuery] Locating classes from SkQuery...
+[15:41:01] [Server thread/INFO]: [skQuery] Finished snooping of SkQuery with 163 classes.
+[15:41:01] [Server thread/INFO]: [skQuery] Beginning to process a total of 163 from SkQuery
+[15:41:02] [Server thread/ERROR]: Error occurred while enabling SkQuery v3.21.4 (Is it up to date?)
+java.lang.NullPointerException
+	at com.w00tmast3r.skquery.elements.expressions.ExprWhere.getReturnType(ExprWhere.java:52) ~[?:?]
+	at com.w00tmast3r.skquery.Registration.register(Registration.java:120) ~[?:?]
+	at com.w00tmast3r.skquery.Registration.enableSnooper(Registration.java:68) ~[?:?]
+	at com.w00tmast3r.skquery.SkQuery.onEnable(SkQuery.java:25) ~[?:?]
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:271) ~[spigot-1.11.2.jar:git-Spigot-3fb9445-6e3cec8]
+	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:337) [spigot-1.11.2.jar:git-Spigot-3fb9445-6e3cec8]
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:405) [spigot-1.11.2.jar:git-Spigot-3fb9445-6e3cec8]
+	at org.bukkit.craftbukkit.v1_11_R1.CraftServer.enablePlugin(CraftServer.java:376) [spigot-1.11.2.jar:git-Spigot-3fb9445-6e3cec8]
+	at org.bukkit.craftbukkit.v1_11_R1.CraftServer.enablePlugins(CraftServer.java:326) [spigot-1.11.2.jar:git-Spigot-3fb9445-6e3cec8]
+	at net.minecraft.server.v1_11_R1.MinecraftServer.t(MinecraftServer.java:421) [spigot-1.11.2.jar:git-Spigot-3fb9445-6e3cec8]
+	at net.minecraft.server.v1_11_R1.MinecraftServer.l(MinecraftServer.java:382) [spigot-1.11.2.jar:git-Spigot-3fb9445-6e3cec8]
+	at net.minecraft.server.v1_11_R1.MinecraftServer.a(MinecraftServer.java:337) [spigot-1.11.2.jar:git-Spigot-3fb9445-6e3cec8]
+	at net.minecraft.server.v1_11_R1.DedicatedServer.init(DedicatedServer.java:272) [spigot-1.11.2.jar:git-Spigot-3fb9445-6e3cec8]
+	at net.minecraft.server.v1_11_R1.MinecraftServer.run(MinecraftServer.java:544) [spigot-1.11.2.jar:git-Spigot-3fb9445-6e3cec8]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_131]
+[15:41:02] [Server thread/INFO]: [RedstoneClockPreventer2] Enabling RedstoneClockPreventer2 v3.4.0
+[15:41:02] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[15:41:02] [Server thread/INFO]: Done (3.034s)! For help, type "help" or "?"
+[15:41:02] [Server thread/INFO]: [AsyncWorldEdit] Loading plugins...
+[15:41:02] [Server thread/INFO]: No economy detected![m
+[15:41:02] [Craft Scheduler Thread - 6/INFO]: [NoCheatPlus] Added hook: AllViolations(NCP) [1.0].
+[15:41:02] [Server thread/INFO]: [NoCheatPlus] Post-enable running...
+[15:41:02] [Server thread/INFO]: [NoCheatPlus] Post-enable finished.
+[15:41:02] [Craft Scheduler Thread - 4/INFO]: [0;33;22mPlotSquared 3.5.0 is available:[m
+[15:41:02] [Craft Scheduler Thread - 4/INFO]: [0;30;1m - [0;36;22mUse: [0;37;22m/plot update[m
+[15:41:02] [Craft Scheduler Thread - 4/INFO]: [0;30;1m - [0;36;22mOr: [0;37;22mPlotSquared-Bukkit.jar[m
+[15:41:03] [Server thread/INFO]: Starting UUID caching[m
+[15:41:03] [Craft Scheduler Thread - 4/INFO]: [0;30;1m[[0;33;22mP2[0;30;1m] [0;37;22m[0;33;22mStarting player data caching for: plot[m
+[15:41:03] [Craft Scheduler Thread - 4/INFO]: [0;32;1mFast mode UUID caching enabled![m
+[15:41:03] [Craft Scheduler Thread - 4/INFO]: [0;30;1m[[0;33;22mP2[0;30;1m] [0;37;22m[0;33;22mCached a total of: 1 UUIDs[m

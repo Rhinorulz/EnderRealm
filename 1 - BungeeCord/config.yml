@@ -1,0 +1,78 @@
+ip_forward: true
+network_compression_threshold: 256
+stats: 7060bbe3-1380-457c-b5de-9bb1c5675d07
+groups:
+  Frienderman:
+  - admin
+servers:
+  Hub:
+    motd: '&1Welcome to the Ender Realm'
+    address: localhost:25566
+    restricted: false
+  SAO:
+    motd: '&1Welcome to SAOCraft'
+    address: localhost:25567
+    restricted: false
+  Plots:
+    motd: EnderRealm Plots
+    address: localhost:25568
+    restricted: false
+  SB:
+    motd: EnderRealm skyblock
+    address: localhost:25569
+    restricted: false
+  Games:
+    motd: EnderRealm Minigames
+    address: localhost:25570
+    restricted: false
+  Prison:
+    motd: EnderRealm Prison
+    address: localhost:25571
+    restricted: false
+  Survival:
+    motd: EnderRealm Survival
+    address: localhost:25572
+    restricted: false
+  ZeldaOoT:
+    motd: The best Zelda game, now on the Ender Realm
+    address: localhost:25573
+    restricted: false
+  Halo:
+    motd: Halo, that thing with the robots and the armor, and ohh yea, the deadly rings
+	address: localhost:25574
+  Test:
+    motd: EnderRealm Test server
+    address: localhost:25575
+    restricted: false
+timeout: 30000
+player_limit: 20
+listeners:
+- query_port: 25565
+  motd: '&1Welcome to the Ender Realm'
+  tab_list: GLOBAL_PING
+  query_enabled: false
+  forced_hosts:
+    0.0.0.0: null
+  ping_passthrough: true
+  bind_local_address: true
+  host: 0.0.0.0:25565
+  max_players: 20
+  tab_size: 60
+  force_default_server: false
+  priorities:
+  - Hub
+  - Hub
+permissions:
+  default:
+  - bungeecord.command.server
+  - bungeecord.command.list
+  admin:
+  - bungeecord.command.alert
+  - bungeecord.command.end
+  - bungeecord.command.ip
+  - bungeecord.command.reload
+online_mode: true
+log_commands: false
+disabled_commands:
+- disabledcommandhere
+connection_throttle: 4000

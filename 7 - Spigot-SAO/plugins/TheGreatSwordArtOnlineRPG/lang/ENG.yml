@@ -1,0 +1,293 @@
+# Translator: Shynixn
+# Leave a comment on http://dev.bukkit.org/bukkit-plugins/thegreatswordartonlinerpg/ if you want to become a translator.
+
+items:
+   display-scoreboard: '&c&lScoreboard'
+   lore-scoreboard: '&aRightclick to change the scoreboard.'
+   display-social: '&e&lSocial'
+   lore-social: '&aRightclick to open the social interact menu.'
+   display-equipment: '&6&lEquipment'
+   lore-equipment: '&aRightclick to open your equipment menu.'
+   display-skills: '&b&lSkills'
+   lore-skills: '&aRightclick to open your skillbar.'
+   display-exit: '&4&lExit'
+   lore-exit: '&aRightclick to close this sub menu.'
+   display-nervegear: '&5&lNervegear'
+   lore-nervegear: '&aPut it on your head and click on a random inventory slot to start.'
+   display-logout: '&4&lLogout'
+   lore-logout: '&aRightclick to logout from the game.'
+   display-menu: '&f&lMenu'
+   lore-menu: '&aRightclick to open the personal menu.'
+   display-sign: '&f&lSign selector'
+   lore-sign: '&aRightclick on a sign to convert it into a link start sign.'  
+   display-next: '&a&lNext'
+   lore-next: '&aRightlick to show the next page.'
+   display-skillapi: '&a&lSkillmenu'
+   lore-skillapi: '&aRightclick to open the skill menu.'
+   display-petsapi: '&a&lPetsmenu'
+   lore-petsapi: '&aRightclick to open the pets menu.'   
+   display-equipment-armor: '&a&lArmor'
+   lore-equipment-armor: '&aRightclick to open the armor page.'   
+   display-equipment-weapon: '&c&lWeapon'
+   lore-equipment-weapon: '&aRightclick to open the weapon page.'     
+   display-equipment-material: '&e&lMaterials'
+   lore-equipment-material: '&aRightclick to open the materials page.'    
+   display-equipment-food: '&b&lFood'
+   lore-equipment-food: '&aRightclick to open the food page.'   
+   display-equipment-drops: '&6&lDrops'
+   lore-equipment-drops: '&aRightclick to open the drops page.'   
+skills:
+   skill-loading: '&e&lSkill is loading'
+   skill-activated: '&2&lSkill activated'
+   skill-deactivated: '&c&lSkill deactivated'
+   skill-cooldown: '&8&lSkill is in cooldown'
+   skill-disabled: '&0&lSkill disabled'
+   skill-wrong-type: '&0&lSkill has wrong type'
+cardinal:
+   you-dead-forever: You are dead! You cannot rejoin thegreatswordartonlinerpg.
+   you-dead-respawn: You are dead! Respawn in <minutes> minutes.
+   type-sao-back: Type '/saob' to teleport back to your arena.
+   update-logout-location: Updated logoutlocation.
+   blacklist-list: Blacklist
+   exceptions-list: Exceptions
+   blacklist-clear: Cleared blacklist.
+   exceptions-clear: Cleared exceptions.
+   learn-skill: '&6Skill detected! Added to skillbar!'
+   link-loading: '&lLinking '
+   next-floor-exist: '&6The next floor does not exist.'
+   previous-floor-exist: '&6The previous floor does not exist.'
+   next-floor-no-perms: '&6You do not have permission. Beat this floor first.'
+commands:
+  developer:
+     developer-remove-all-entities: Removed all entities in your world.
+     developer-remove-next-entity: Removed entity <entity>.
+     developer-critical-damage-warning: Warning! Using these commands can cause critical damages to your server.
+  floors:
+     floor-create: Created floor <floorid>.
+     floor-remove: Removed floor <floorid>.
+     floor-not-exist: This floor does not exist.
+     floor-exists: This floor already exists.
+     floor-next-portal: Updated next-floor-teleporting-portal-position. Everyone who gets in a radius of 2 blocks near this point, gets automatically teleported to the next floor if he has the permission.
+     floor-previous-portal: Updated previous-floor-teleporting-portal-position. Everyone who gets in a radius of 2 blocks near this point, gets automatically teleported to the previous floor.
+     floor-finish-field: Updated floor finish position. Everyone who gets in a radius of 5 blocks near this point, gets automatically the access to the next floor.
+     floor-list: Registered Floors
+     floor-show: Floor <floorid> <text>.
+     floor-boss: Updated floor boss. This is temporary solution and will be changed later. Everyone who is in a radius of 20 blocks when a boss dies gets access to the next floor.
+  races:
+     race-create: Created race.
+     race-remove: Removed race.
+     race-not-exist: This race does not exist.
+     race-exists: This race already exists.     
+     race-set-spawnpoint: Updated race spawnpoint.
+     race-list: Registered Races   
+  mobs:
+     mob-entity-not-exist: This entitytype does not exist.
+     mob-exists: This mob does already exist.
+     mob-not-exist: This mob does not exist.
+     mob-added: Added mob.
+     mob-removed: Removed mob.
+     mob-close-other-arena: Close your other mobArena first.
+     mob-delete-arena: Closed mobeditingarena.
+     mob-create-arena: Created mobeditingarena.
+     mob-spawn-custommob: Spawned custom mob.
+     mob-spawn-standardmob: Spawned standard mob.
+     mob-arena-not-open: You do not have an open mobeditingarena.
+     mob-are-not-editing: You have to edit a mob.
+     mob-are-not-arena: You are not in your mobeditingarena.
+     mob-transfered: Transfered inventory and effects to mob.
+     mob-removed: Removed mob.
+     mob-health-hast-to-be: Health has to be greater than 0 and lower than 10000000.
+     mob-damage-has-to-be: Damage has to be greater than 0 and lower than 10000000.
+     mob-pecentage: Percentage cannot be lower than 0 or greater than 100.
+     mob-updated-health: Updated mob health.
+     mob-updated-damage: Updated mob damage.	 
+     mob-arena-killed: Killed mob in your arena.
+     mob-list: Registered Mobs
+     mob-enable-arena-daylight: Enabled daylightburn in your arena.
+     mob-disable-arena-daylight: Disabled daylightburn in your arena.
+     mob-enable-arena-damageable: Enabled mob damageable in your arena.
+     mob-disable-arena-damageable: Disabled mob damageable in your arena.
+     mob-enable-arena-moveable: Enabled mob moveable in your arena.
+     mob-disable-arena-moevable: Disabled mob moveable in your arena.
+     mob-enable-arena-attacking: Enabled mob attacking in your arena.
+     mob-disable-arena-attacking: Disabled mob attacking in your arena.
+     mob-enable-arena-health: Enabled mob health in your arena.
+     mob-disable-arena-health: Disabled mob health in your arena.	 
+     mob-move-helmet: Moved item to your helmet slot.
+     mob-put-helmet: Put an item in your hands to move it to your helmet slot.
+     mob-move-chestplate: Moved item to your chestplate slot.
+     mob-put-chestplate: Put an item in your hands to move it to your chestplate slot.
+     mob-move-leggings: Moved item to your leggings slot.
+     mob-put-leggings: Put an item in your hands to move it to your leggings slot.
+     mob-move-boots: Moved item to your boots slot.
+     mob-put-boots: Put an item in your hands to move it to your boots slot.	 
+     mob-update-helmet-dc: Updated helmet dropchance.
+     mob-update-chestplate-dc: Updated chestplate dropchance.
+     mob-update-leggings-dc: Updated leggings dropchance.
+     mob-update-boots-dc: Updated boots dropchance.
+     mob-update-weapon-dc: Updated weapon dropchance. 
+     mob-skills-not-exist: This skill does not exist.
+     mob-skills-already-know: This mob already knows this skill.
+     mob-skills-not-know: This mob does not know this skill
+     mob-skills-added: Added skill to mob.	 
+     mob-skills-removed: Removed skill from mob.
+     mob-skills-list: Registered skills on mob
+     mob-riding-clear: Cleared riding spot. 
+     mob-rides: Mob rides now <mob>.
+     mob-knockback-has-to-be: Knockback has to be greater than 0 and lower than 1000.
+     mob-knockback-direction: This direction does not exist.
+     mob-knockback-updated: Updated mob <direction> knockback.
+     mob-duration: Duration has to be greater than 0 and lower than 1000.
+     mob-update-fire: Updated mob fireattack.
+     mob-enable-daylightburn: Enabled daylightburn.
+     mob-disable-daylightburn: Disabled daylightburn.
+     mob-enable-damageable: Enabled damageable..
+     mob-disable-damageable: Disabled damageable.
+     mob-enable-damaging: Enabled damaging.
+     mob-disable-damaging: Disabled damaging.
+     mob-enable-moving: Enabled moving.
+     mob-disable-moving: Disabled moving.
+     mob-enable-attacking: Enabled attacking.
+     mob-disable-attacking: Disabled attacking.
+     mob-enable-health: Enabled health.
+     mob-disable-health: Disabled health.
+     mob-enable-displayname: Enabled displayName.
+     mob-disable-displayname: Disabled displayName.
+     mob-enable-drops: Enabled classic drops.
+     mob-disable-drops: Disabled classic drops.	
+     mob-slime-size-is: Size has to be greater than 0 and lower than 100.
+     mob-slime-update: Updated slimesize.
+     mob-villagertype-is: This villagertype does not exist
+     mob-villagertype-update: Updated villagertype.
+     mob-villagerprofession-is: This villagerprofession does not exist.
+     mob-villagerprofession-update: Updated villagerprofession.
+     mob-enable-babymode: Enabled babymode.
+     mob-disable-babymode: Disabled babymode.
+     mob-enable-withermode: Enabled withermode.
+     mob-disable-withermode: Disabled withermode.
+     mob-enable-catmode: Enabled catmode.
+     mob-disable-catmode: Disabled catmode.	
+     mob-enable-dogmode: Enabled dogmode.
+     mob-disable-dogmode: Disabled dogmode.		
+     mob-enable-powered: Enabled creeper powered.
+     mob-disable-powered: Disabled creeper powered.
+     mob-enable-destroy: Enabled creeper destroy blocks.
+     mob-disable-destroy: Disabled creeper destroy blocks.
+     mob-catcolor-is: This catcolor does not exist.
+     mob-catcolor-update: Updated catcolor.	
+     mob-explosionradius-is: Amount has to be greater than 0 and lower than 100
+     mob-explosionradius-update: Updated explosionradius.		
+     mob-wings-not-exist: These wings do not exist.	
+     mob-updated-wings: Updated mob wings.	
+     mob-enabled-wings: Enabled mob wings.	
+     mob-disabled-wings: Disabled mob wings.	
+     mob-fly-not-exist: Flydirection does not exist.	
+     mob-updated-min-flying: Updated min amount.	
+     mob-updated-max-flying: Updated max amount.	
+     mob-enabled-flying: Enabled flying mob.	
+     mob-disabled-flying: Disabled flying mob.		  
+  respawn:
+    respawn-not-exist: This spawn does not exist.
+    respawn-exists: This spawn already exists.
+    respawn-amount-10000000: Amount cannot be smaller than 1 or greater than 1000000.
+    respawn-amount-1000: Amount cannot be lower than 1 or greater than 1000.
+    respawn-updated-maxdespawndelay: Updated maxdespawndelay.
+    respawn-updated-maxrespawndelay: Updated maxrespawndelay.
+    respawn-enabled: Enabled respawnpoint.
+    respawn-disabled: Disabled respawnpoint.
+    respawn-list: Registered MobSpawns
+    respawn-added: Added mob spawnpoint.
+    respawn-removed: Removed mob spawnpoint
+    respawn-mob-not-exist: This mob does not exist.
+    respawn-lower-x: XRadius cannot be lower than 1 or greater than 1000.
+    respawn-lower-y: YRadius cannot be lower than 1 or greater than 1000.
+    respawn-lower-z: ZRadius cannot be lower than 1 or greater than 1000.
+    respawn-lower-d: Detectionradius cannot be lower than 1 or greater than 1000.
+  skills:
+    skill-exists: This skill already exists.
+    skill-not-exist: This skill does not exist.
+    skill-displayname-longer: Display names longer than 16 cause a scoreboard crash.
+    skill-type-not-exist: This type does not exist. Use sword, bow, axe or universal.
+    skill-created: Created skill.
+    skill-removed: Removed skill.
+    skill-close-other-arena: Close your other arena first.
+    skill-created-arena: Created skill-editing-arena.
+    skill-not-open-arena: You do not have an open arena.
+    skill-closed-arena: Closed skill-editing-arena.
+    skill-you-not-arena: You are not in your skill-editing arena.
+    skill-changed-type: Changed skilltype of your skill.
+    skill-changed-display: Changed displayname of your skill.
+    skill-bind: Put an item in your hand to bind a skill to it.
+    skill-added-skill: Added skill <skill> to your item.
+    skill-api-not-installed: SkillAPI plugin is not installed.
+    skill-api-not-exist: SkillAPI skill does not exist.
+    skill-api-added-skill: Added skillapi skill <skill> to your item.
+    skill-list: Registered Skills
+    skill-enchantment-not-exist: This enchantment does not exist.
+    skill-enchantment-level: Enchantment level can not be lower than 1.
+    skill-enchantment-position: Unknow position. Use the values 
+    skill-enchantment-added: Added enchantment.
+    skill-enchantment-id-not-exist: This enchantment id does not exist.
+    skill-enchantment-removed: Removed enchantment.
+    skill-enchantment-list: Registered enchantments on your skill
+    skill-effect-not-exist: This effect does not exist.
+    skill-effect-duration: Effectduration can not be lower than 1.
+    skill-effect-amplifier: Effectamplifier can not be lower than 1.
+    skill-delay: Delay can not be lower than 0.
+    skill-effect-added: Added effect.
+    skill-effect-id-not-exist: This potioneffect id does not exist.	
+    skill-effect-removed: Removed effect.
+    skill-effect-list: Registered effects on your skill
+    skill-sound-not-exist: This sound does not exist.
+    skill-sound-volume: Volume cannot be greater than 2.0 and lower than 0.0.
+    skill-sound-pitch: Pitch cannot be greater than 2.0 and lower than 0.0.
+    skill-sound-added: Added sound.
+    skill-sound-id-not-exist: This sound id does not exist.
+    skill-sound-removed: Removed sound.
+    skill-sound-list: Registered sounds on your skill
+    skill-particle-not-exist: This particle does not exist.
+    skill-particle-count: Count can not be lower than 0.
+    skill-particle-speed: Speed can not be lower than 0.1.
+    skill-particle-size-x: Sizex can not be lower than 1.
+    skill-particle-size-y: Sizey can not be lower than 1.
+    skill-particle-size-z: Sizez can not be lower than 1.
+    skill-particle-delay: Delay can not be lower than 0.	
+    skill-particle-added: Added particle.
+    skill-particle-removed: Removed particle.
+    skill-particle-id-not-exist: This particle id does not exist.
+    skill-particle-list: Registered particles on your skill
+    skill-direction: This direction does not exist.
+    skill-launch-amplifier: Amplifier can not be lower than 1.
+    skill-launch-added: Added launch.
+    skill-launch-id-not-exist: This launch id does not exist.
+    skill-launch-list: Registered launches on your skill
+    skill-launch-removed: Removed launch.
+    skill-teleport-block-amount: Block amount can not be lower than 1.
+    skill-teleport-added: Added teleport.
+    skill-teleport-id-not-exist: This teleport id does not exist.
+    skill-teleport-removed: Removed teleport.
+    skill-teleport-list: Registered teleports on your skill
+    skill-hitsound-added: Added hit-sound.
+    skill-hitsound-id-not-exist: This hit-sound id does not exist.
+    skill-hitsound-removed: Removed hit-sound.
+    skill-hitsound-list: Registered hit-sounds on your skill.
+    skill-hitparticle-added: Added hit-particle.
+    skill-hitparticle-id-not-exist: This hit-particle id does not exist.
+    skill-hitparticle-removed: Removed hit-particle.	
+    skill-hitparticle-list: Registered hit-particles on your skill
+    skill-hitowneffect-added: Added hit-own-effect.
+    skill-hitowneffect-id-not-exist: This hit-own-effect id does not exist.
+    skill-hitowneffect-removed: Removed hit-own-effect.
+    skill-hitowneffect-list: Registered hit-own-effects on your skill
+    skill-hitenemyeffect-added: Added hit-enemy-effect.
+    skill-hitenemyeffect-id-not-exist: This hit-enemy-effect id does not exist.
+    skill-hitenemyeffect-removed: Removed hit-enemy-effect.
+    skill-hitenemyeffect-list: Registered hit-enemy-effects on your skill
+    skill-duration: Duration can not be lower than 0.
+    skill-loading: Updated loading-duration.
+    skill-executing: Updated skill-duration.	
+    skill-cooldown: Updated skill-cooldown.
+    skill-enabled: Skill was enabled.
+    skill-disabled: Skill was disabled.
+    skill-lore: You can only set lore 1,2 or 3.
+    skill-update-lore: Updated lore.

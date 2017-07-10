@@ -1,0 +1,128 @@
+[00:00:33] [Craft Scheduler Thread - 821/INFO]: [Metrics] Unexpected end of file from server
+[00:10:33] [Craft Scheduler Thread - 825/INFO]: [Metrics] Unexpected end of file from server
+[00:20:34] [Craft Scheduler Thread - 826/INFO]: [Metrics] Unexpected end of file from server
+[00:30:35] [Craft Scheduler Thread - 828/INFO]: [Metrics] Unexpected end of file from server
+[00:40:36] [Craft Scheduler Thread - 828/INFO]: [Metrics] Unexpected end of file from server
+[00:51:37] [Craft Scheduler Thread - 828/INFO]: [Metrics] Server returned HTTP response code: 504 for URL: http://mcstats.org/report/AsyncWorldEdit
+[01:00:38] [Craft Scheduler Thread - 833/INFO]: [Metrics] Unexpected end of file from server
+[01:10:39] [Craft Scheduler Thread - 833/INFO]: [Metrics] Unexpected end of file from server
+[01:20:40] [Craft Scheduler Thread - 833/INFO]: [Metrics] Unexpected end of file from server
+[01:30:41] [Craft Scheduler Thread - 833/INFO]: [Metrics] Unexpected end of file from server
+[01:40:42] [Craft Scheduler Thread - 833/INFO]: [Metrics] Connection reset
+[01:50:43] [Craft Scheduler Thread - 833/INFO]: [Metrics] Unexpected end of file from server
+[02:00:44] [Craft Scheduler Thread - 841/INFO]: [Metrics] Unexpected end of file from server
+[02:10:45] [Craft Scheduler Thread - 844/INFO]: [Metrics] Unexpected end of file from server
+[02:20:46] [Craft Scheduler Thread - 846/INFO]: [Metrics] Unexpected end of file from server
+[02:30:47] [Craft Scheduler Thread - 848/INFO]: [Metrics] Unexpected end of file from server
+[02:40:48] [Craft Scheduler Thread - 848/INFO]: [Metrics] Unexpected end of file from server
+[02:50:49] [Craft Scheduler Thread - 848/INFO]: [Metrics] Connection reset
+[03:00:50] [Craft Scheduler Thread - 848/INFO]: [Metrics] Unexpected end of file from server
+[03:10:51] [Craft Scheduler Thread - 854/INFO]: [Metrics] Unexpected end of file from server
+[03:20:52] [Craft Scheduler Thread - 857/INFO]: [Metrics] Unexpected end of file from server
+[03:30:53] [Craft Scheduler Thread - 857/INFO]: [Metrics] Unexpected end of file from server
+[03:40:54] [Craft Scheduler Thread - 859/INFO]: [Metrics] Unexpected end of file from server
+[03:50:55] [Craft Scheduler Thread - 859/INFO]: [Metrics] Unexpected end of file from server
+[04:00:55] [Craft Scheduler Thread - 859/INFO]: [Metrics] Unexpected end of file from server
+[04:10:56] [Craft Scheduler Thread - 864/INFO]: [Metrics] Unexpected end of file from server
+[04:20:57] [Craft Scheduler Thread - 866/INFO]: [Metrics] Unexpected end of file from server
+[04:31:00] [Craft Scheduler Thread - 864/INFO]: [Metrics] Unexpected end of file from server
+[04:40:59] [Craft Scheduler Thread - 870/INFO]: [Metrics] Unexpected end of file from server
+[04:51:00] [Craft Scheduler Thread - 870/INFO]: [Metrics] Unexpected end of file from server
+[05:01:01] [Craft Scheduler Thread - 873/INFO]: [Metrics] Unexpected end of file from server
+[05:11:02] [Craft Scheduler Thread - 873/INFO]: [Metrics] Unexpected end of file from server
+[05:21:03] [Craft Scheduler Thread - 873/INFO]: [Metrics] Unexpected end of file from server
+[05:31:04] [Craft Scheduler Thread - 878/INFO]: [Metrics] Unexpected end of file from server
+[05:41:05] [Craft Scheduler Thread - 878/INFO]: [Metrics] Unexpected end of file from server
+[05:51:06] [Craft Scheduler Thread - 881/INFO]: [Metrics] Unexpected end of file from server
+[06:02:07] [Craft Scheduler Thread - 883/INFO]: [Metrics] Server returned HTTP response code: 504 for URL: http://mcstats.org/report/AsyncWorldEdit
+[06:11:08] [Craft Scheduler Thread - 885/INFO]: [Metrics] Unexpected end of file from server
+[06:22:09] [Craft Scheduler Thread - 885/INFO]: [Metrics] Server returned HTTP response code: 504 for URL: http://mcstats.org/report/AsyncWorldEdit
+[06:31:10] [Craft Scheduler Thread - 885/INFO]: [Metrics] Unexpected end of file from server
+[06:41:11] [Craft Scheduler Thread - 890/INFO]: [Metrics] Unexpected end of file from server
+[06:51:32] [Craft Scheduler Thread - 890/INFO]: [Metrics] Connection timed out: connect
+[07:01:13] [Craft Scheduler Thread - 893/INFO]: [Metrics] Connection reset
+[07:11:14] [Craft Scheduler Thread - 893/INFO]: [Metrics] Unexpected end of file from server
+[07:22:23] [Craft Scheduler Thread - 893/INFO]: [Metrics] Server returned HTTP response code: 504 for URL: http://mcstats.org/report/AsyncWorldEdit
+[07:31:15] [Craft Scheduler Thread - 893/INFO]: [Metrics] Unexpected end of file from server
+[07:42:16] [Craft Scheduler Thread - 900/INFO]: [Metrics] Server returned HTTP response code: 504 for URL: http://mcstats.org/report/AsyncWorldEdit
+[07:51:17] [Craft Scheduler Thread - 901/INFO]: [Metrics] Unexpected end of file from server
+[08:01:18] [Craft Scheduler Thread - 903/INFO]: [Metrics] Unexpected end of file from server
+[08:12:19] [Craft Scheduler Thread - 905/INFO]: [Metrics] Server returned HTTP response code: 504 for URL: http://mcstats.org/report/AsyncWorldEdit
+[08:21:20] [Craft Scheduler Thread - 906/INFO]: [Metrics] Unexpected end of file from server
+[08:31:21] [Craft Scheduler Thread - 905/INFO]: [Metrics] Connection reset
+[08:41:23] [Craft Scheduler Thread - 909/INFO]: [Metrics] Unexpected end of file from server
+[08:51:24] [Craft Scheduler Thread - 909/INFO]: [Metrics] Unexpected end of file from server
+[09:01:24] [Craft Scheduler Thread - 911/INFO]: [Metrics] Unexpected end of file from server
+[09:11:25] [Craft Scheduler Thread - 915/INFO]: [Metrics] Unexpected end of file from server
+[09:21:26] [Craft Scheduler Thread - 916/INFO]: [Metrics] Unexpected end of file from server
+[09:31:27] [Craft Scheduler Thread - 919/INFO]: [Metrics] Unexpected end of file from server
+[09:41:28] [Craft Scheduler Thread - 919/INFO]: [Metrics] Unexpected end of file from server
+[09:52:29] [Craft Scheduler Thread - 922/INFO]: [Metrics] Server returned HTTP response code: 504 for URL: http://mcstats.org/report/AsyncWorldEdit
+[10:01:30] [Craft Scheduler Thread - 919/INFO]: [Metrics] Unexpected end of file from server
+[10:11:31] [Craft Scheduler Thread - 926/INFO]: [Metrics] Unexpected end of file from server
+[10:22:32] [Craft Scheduler Thread - 927/INFO]: [Metrics] Server returned HTTP response code: 504 for URL: http://mcstats.org/report/AsyncWorldEdit
+[10:31:33] [Craft Scheduler Thread - 929/INFO]: [Metrics] Unexpected end of file from server
+[10:42:34] [Craft Scheduler Thread - 931/INFO]: [Metrics] Server returned HTTP response code: 504 for URL: http://mcstats.org/report/AsyncWorldEdit
+[10:51:35] [Craft Scheduler Thread - 932/INFO]: [Metrics] Unexpected end of file from server
+[11:01:36] [Craft Scheduler Thread - 934/INFO]: [Metrics] Unexpected end of file from server
+[11:11:37] [Craft Scheduler Thread - 935/INFO]: [Metrics] Unexpected end of file from server
+[11:21:38] [Craft Scheduler Thread - 937/INFO]: [Metrics] Connection reset
+[11:31:39] [Craft Scheduler Thread - 939/INFO]: [Metrics] Unexpected end of file from server
+[11:41:40] [Craft Scheduler Thread - 940/INFO]: [Metrics] Unexpected end of file from server
+[11:51:41] [Craft Scheduler Thread - 942/INFO]: [Metrics] Unexpected end of file from server
+[12:02:42] [Craft Scheduler Thread - 944/INFO]: [Metrics] Server returned HTTP response code: 504 for URL: http://mcstats.org/report/AsyncWorldEdit
+[12:11:43] [Craft Scheduler Thread - 945/INFO]: [Metrics] Unexpected end of file from server
+[12:22:44] [Craft Scheduler Thread - 947/INFO]: [Metrics] Server returned HTTP response code: 504 for URL: http://mcstats.org/report/AsyncWorldEdit
+[12:32:45] [Craft Scheduler Thread - 947/INFO]: [Metrics] Server returned HTTP response code: 504 for URL: http://mcstats.org/report/AsyncWorldEdit
+[12:41:46] [Craft Scheduler Thread - 951/INFO]: [Metrics] Unexpected end of file from server
+[12:51:48] [Craft Scheduler Thread - 951/INFO]: [Metrics] Unexpected end of file from server
+[13:01:49] [Craft Scheduler Thread - 953/INFO]: [Metrics] Unexpected end of file from server
+[13:11:50] [Craft Scheduler Thread - 956/INFO]: [Metrics] Unexpected end of file from server
+[13:21:51] [Craft Scheduler Thread - 957/INFO]: [Metrics] Unexpected end of file from server
+[13:31:52] [Craft Scheduler Thread - 957/INFO]: [Metrics] Unexpected end of file from server
+[13:41:53] [Craft Scheduler Thread - 957/INFO]: [Metrics] Unexpected end of file from server
+[13:51:54] [Craft Scheduler Thread - 962/INFO]: [Metrics] Unexpected end of file from server
+[14:01:55] [Craft Scheduler Thread - 962/INFO]: [Metrics] Unexpected end of file from server
+[14:12:56] [Craft Scheduler Thread - 966/INFO]: [Metrics] Server returned HTTP response code: 504 for URL: http://mcstats.org/report/AsyncWorldEdit
+[14:21:57] [Craft Scheduler Thread - 968/INFO]: [Metrics] Unexpected end of file from server
+[14:31:58] [Craft Scheduler Thread - 966/INFO]: [Metrics] Unexpected end of file from server
+[14:42:59] [Craft Scheduler Thread - 971/INFO]: [Metrics] Server returned HTTP response code: 504 for URL: http://mcstats.org/report/AsyncWorldEdit
+[14:52:00] [Craft Scheduler Thread - 972/INFO]: [Metrics] Unexpected end of file from server
+[15:02:01] [Craft Scheduler Thread - 975/INFO]: [Metrics] Unexpected end of file from server
+[15:12:02] [Craft Scheduler Thread - 975/INFO]: [Metrics] Unexpected end of file from server
+[15:22:03] [Craft Scheduler Thread - 975/INFO]: [Metrics] Unexpected end of file from server
+[15:32:03] [Craft Scheduler Thread - 975/INFO]: [Metrics] Unexpected end of file from server
+[15:42:04] [Craft Scheduler Thread - 975/INFO]: [Metrics] Unexpected end of file from server
+[15:52:06] [Craft Scheduler Thread - 984/INFO]: [Metrics] Server returned HTTP response code: 500 for URL: http://mcstats.org/report/AsyncWorldEdit
+[16:02:07] [Craft Scheduler Thread - 985/INFO]: [Metrics] Unexpected end of file from server
+[16:12:08] [Craft Scheduler Thread - 985/INFO]: [Metrics] Unexpected end of file from server
+[16:23:08] [Craft Scheduler Thread - 988/INFO]: [Metrics] Server returned HTTP response code: 504 for URL: http://mcstats.org/report/AsyncWorldEdit
+[16:32:10] [Craft Scheduler Thread - 990/INFO]: [Metrics] Unexpected end of file from server
+[16:42:10] [Craft Scheduler Thread - 992/INFO]: [Metrics] Unexpected end of file from server
+[16:53:12] [Craft Scheduler Thread - 993/INFO]: [Metrics] Server returned HTTP response code: 504 for URL: http://mcstats.org/report/AsyncWorldEdit
+[17:02:13] [Craft Scheduler Thread - 992/INFO]: [Metrics] Unexpected end of file from server
+[17:12:14] [Craft Scheduler Thread - 997/INFO]: [Metrics] Unexpected end of file from server
+[17:23:15] [Craft Scheduler Thread - 997/INFO]: [Metrics] Server returned HTTP response code: 504 for URL: http://mcstats.org/report/AsyncWorldEdit
+[17:32:16] [Craft Scheduler Thread - 997/INFO]: [Metrics] Unexpected end of file from server
+[17:43:16] [Craft Scheduler Thread - 1002/INFO]: [Metrics] Server returned HTTP response code: 504 for URL: http://mcstats.org/report/AsyncWorldEdit
+[17:53:18] [Craft Scheduler Thread - 1002/INFO]: [Metrics] Server returned HTTP response code: 504 for URL: http://mcstats.org/report/AsyncWorldEdit
+[18:02:19] [Craft Scheduler Thread - 1003/INFO]: [Metrics] Unexpected end of file from server
+[18:12:20] [Craft Scheduler Thread - 1003/INFO]: [Metrics] Unexpected end of file from server
+[18:23:21] [Craft Scheduler Thread - 1008/INFO]: [Metrics] Server returned HTTP response code: 504 for URL: http://mcstats.org/report/AsyncWorldEdit
+[18:32:22] [Craft Scheduler Thread - 1008/INFO]: [Metrics] Unexpected end of file from server
+[18:42:23] [Craft Scheduler Thread - 1008/INFO]: [Metrics] Unexpected end of file from server
+[18:53:24] [Craft Scheduler Thread - 1008/INFO]: [Metrics] Server returned HTTP response code: 504 for URL: http://mcstats.org/report/AsyncWorldEdit
+[19:02:25] [Craft Scheduler Thread - 1015/INFO]: [Metrics] Unexpected end of file from server
+[19:12:25] [Craft Scheduler Thread - 1017/INFO]: [Metrics] Unexpected end of file from server
+[19:23:26] [Craft Scheduler Thread - 1017/INFO]: [Metrics] Server returned HTTP response code: 504 for URL: http://mcstats.org/report/AsyncWorldEdit
+[19:32:27] [Craft Scheduler Thread - 1018/INFO]: [Metrics] Unexpected end of file from server
+[19:42:28] [Craft Scheduler Thread - 1022/INFO]: [Metrics] Unexpected end of file from server
+[19:53:29] [Craft Scheduler Thread - 1023/INFO]: [Metrics] Server returned HTTP response code: 504 for URL: http://mcstats.org/report/AsyncWorldEdit
+[20:02:30] [Craft Scheduler Thread - 1023/INFO]: [Metrics] Unexpected end of file from server
+[20:12:31] [Craft Scheduler Thread - 1028/INFO]: [Metrics] Unexpected end of file from server
+[20:23:32] [Craft Scheduler Thread - 1030/INFO]: [Metrics] Server returned HTTP response code: 504 for URL: http://mcstats.org/report/AsyncWorldEdit
+[20:32:33] [Craft Scheduler Thread - 1030/INFO]: [Metrics] Unexpected end of file from server
+[20:42:34] [Craft Scheduler Thread - 1030/INFO]: [Metrics] Unexpected end of file from server
+[20:53:35] [Craft Scheduler Thread - 1030/INFO]: [Metrics] Server returned HTTP response code: 504 for URL: http://mcstats.org/report/AsyncWorldEdit
+[21:02:37] [Craft Scheduler Thread - 1036/INFO]: [Metrics] Server returned HTTP response code: 500 for URL: http://mcstats.org/report/AsyncWorldEdit
+[21:12:52] [Craft Scheduler Thread - 1036/INFO]: [Metrics] Unexpected end of file from server

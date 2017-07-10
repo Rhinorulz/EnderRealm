@@ -1,0 +1,239 @@
+[15:33:59] [Server thread/INFO]: Starting minecraft server version 1.11.2
+[15:33:59] [Server thread/INFO]: Loading properties
+[15:33:59] [Server thread/INFO]: Default game type: SURVIVAL
+[15:34:00] [Server thread/INFO]: This server is running CraftBukkit version git-Spigot-9ba269b-c19c293 (MC: 1.11.2) (Implementing API version 1.11.2-R0.1-SNAPSHOT)
+[15:34:00] [Server thread/INFO]: Debug logging is disabled
+[15:34:00] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[15:34:00] [Server thread/INFO]: Using 4 threads for Netty based IO
+[15:34:00] [Server thread/INFO]: Generating keypair
+[15:34:00] [Server thread/INFO]: Starting Minecraft server on *:25572
+[15:34:00] [Server thread/INFO]: Using default channel type
+[15:34:00] [Server thread/INFO]: Set PluginClassLoader as parallel capable
+[15:34:00] [Server thread/INFO]: [AsyncWorldEditInjector] Loading AsyncWorldEditInjector v3.4.9
+[15:34:00] [Server thread/INFO]: [PermissionsEx] Loading PermissionsEx v1.23.4
+[15:34:00] [Server thread/WARN]: [PermissionsEx] This server is in offline mode. Unless this server is configured to integrate with a supported proxy (see http://dft.ba/-8ous), UUIDs *may not be stable*!
+[15:34:00] [Server thread/INFO]: [NoCheatPlus] Loading NoCheatPlus v3.15.0-SNAPSHOT-sMD5NET-b1082
+[15:34:00] [Server thread/INFO]: [NoCheatPlus] onLoad: Early set up of static API, configuration, logging.
+[15:34:01] [Server thread/INFO]: [NoCheatPlus] Logging system initialized.
+[15:34:01] [Server thread/INFO]: [NoCheatPlus] Detected Minecraft version: 1.11.2
+[15:34:01] [Server thread/INFO]: [AsyncWorldEdit] Loading AsyncWorldEdit v3.4.9
+[15:34:01] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v6.1.5;4651611
+[15:34:01] [Server thread/INFO]: [AsyncWorldEditInjector] Enabling AsyncWorldEditInjector v3.4.9
+[15:34:01] [Server thread/INFO]: [AsyncWorldEditInjector] Injector platform set to: InjectorBukkit
+[15:34:01] [Server thread/INFO]: [AsyncWorldEditInjector] Injecting WorldEdit classes...
+[15:34:01] [Server thread/INFO]: [AsyncWorldEditInjector] Class com.sk89q.worldedit.EditSession injected.
+[15:34:01] [Server thread/INFO]: [AsyncWorldEditInjector] Class com.sk89q.worldedit.function.operation.Operations injected.
+[15:34:01] [Server thread/INFO]: [AsyncWorldEditInjector] Class com.sk89q.worldedit.function.operation.ForwardExtentCopy injected.
+[15:34:01] [Server thread/INFO]: [AsyncWorldEditInjector] Class com.sk89q.worldedit.extent.clipboard.BlockArrayClipboard injected.
+[15:34:01] [Server thread/INFO]: [AsyncWorldEditInjector] Class com.sk89q.worldedit.command.FlattenedClipboardTransform injected.
+[15:34:01] [Server thread/INFO]: [AsyncWorldEditInjector] Class com.sk89q.worldedit.extent.clipboard.io.ClipboardFormat injected.
+[15:34:01] [Server thread/INFO]: [AsyncWorldEditInjector] Enabled
+[15:34:01] [Server thread/INFO]: [AsyncWorldEdit] Enabling AsyncWorldEdit v3.4.9
+[15:34:01] [Server thread/INFO]: [AsyncWorldEdit] Plugin installed
+[15:34:01] [Server thread/INFO]: [AsyncWorldEdit] Platform set to Bukkit API
+[15:34:02] [Server thread/INFO]: [AsyncWorldEdit] DirectChunkAPI adapter set to Spigot v1.11 R1
+[15:34:02] [Server thread/INFO]: [AsyncWorldEdit] PlotMeFix set to class org.primesoft.asyncworldedit.plotme.NullFix.
+[15:34:02] [Server thread/INFO]: [AsyncWorldEditInjector] New class factory set to: org.primesoft.asyncworldedit.injector.async.AsyncClassFactory
+[15:34:02] [Server thread/INFO]: [AsyncWorldEdit] Enabled
+[15:34:02] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[15:34:02] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[15:34:02] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[15:34:02] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[15:34:02] [Server thread/INFO]: **** Beginning UUID conversion, this may take A LONG time ****
+[15:34:02] [Server thread/INFO]: Preparing level "Survival"
+[15:34:02] [Server thread/INFO]: -------- World Settings For [Survival] --------
+[15:34:02] [Server thread/INFO]: Item Merge Radius: 2.5
+[15:34:02] [Server thread/INFO]: Item Despawn Rate: 6000
+[15:34:02] [Server thread/INFO]: Experience Merge Radius: 3.0
+[15:34:02] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[15:34:02] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[15:34:02] [Server thread/INFO]: View Distance: 10
+[15:34:02] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[15:34:02] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[15:34:02] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617 Monument: 10387313 Slime: 987234911
+[15:34:02] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[15:34:02] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[15:34:02] [Server thread/INFO]: Mob Spawn Range: 4
+[15:34:02] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[15:34:02] [Server thread/INFO]: Cane Growth Modifier: 100%
+[15:34:02] [Server thread/INFO]: Melon Growth Modifier: 100%
+[15:34:02] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[15:34:02] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[15:34:02] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[15:34:02] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[15:34:02] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[15:34:02] [Server thread/INFO]: Vine Growth Modifier: 100%
+[15:34:02] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[15:34:02] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[15:34:02] [Server thread/INFO]: Random Lighting Updates: false
+[15:34:02] [Server thread/INFO]: Structure Info Saving: true
+[15:34:02] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[15:34:02] [Server thread/INFO]: Max TNT Explosions: 100
+[15:34:02] [Thread-8/INFO]: [AsyncWorldEdit] You have the latest version of the plugin.
+[15:34:02] [Server thread/INFO]: -------- World Settings For [Survival_nether] --------
+[15:34:02] [Server thread/INFO]: Item Merge Radius: 2.5
+[15:34:02] [Server thread/INFO]: Item Despawn Rate: 6000
+[15:34:02] [Server thread/INFO]: Experience Merge Radius: 3.0
+[15:34:02] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[15:34:02] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[15:34:02] [Server thread/INFO]: View Distance: 10
+[15:34:02] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[15:34:02] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[15:34:02] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617 Monument: 10387313 Slime: 987234911
+[15:34:02] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[15:34:02] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[15:34:02] [Server thread/INFO]: Mob Spawn Range: 4
+[15:34:02] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[15:34:02] [Server thread/INFO]: Cane Growth Modifier: 100%
+[15:34:02] [Server thread/INFO]: Melon Growth Modifier: 100%
+[15:34:02] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[15:34:02] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[15:34:02] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[15:34:02] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[15:34:02] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[15:34:02] [Server thread/INFO]: Vine Growth Modifier: 100%
+[15:34:02] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[15:34:02] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[15:34:02] [Server thread/INFO]: Random Lighting Updates: false
+[15:34:02] [Server thread/INFO]: Structure Info Saving: true
+[15:34:02] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[15:34:02] [Server thread/INFO]: Max TNT Explosions: 100
+[15:34:02] [Server thread/INFO]: -------- World Settings For [Survival_the_end] --------
+[15:34:02] [Server thread/INFO]: Item Merge Radius: 2.5
+[15:34:02] [Server thread/INFO]: Item Despawn Rate: 6000
+[15:34:02] [Server thread/INFO]: Experience Merge Radius: 3.0
+[15:34:02] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[15:34:02] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[15:34:02] [Server thread/INFO]: View Distance: 10
+[15:34:02] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[15:34:02] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[15:34:02] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617 Monument: 10387313 Slime: 987234911
+[15:34:02] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[15:34:02] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[15:34:02] [Server thread/INFO]: Mob Spawn Range: 4
+[15:34:02] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[15:34:02] [Server thread/INFO]: Cane Growth Modifier: 100%
+[15:34:02] [Server thread/INFO]: Melon Growth Modifier: 100%
+[15:34:02] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[15:34:02] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[15:34:02] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[15:34:02] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[15:34:02] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[15:34:02] [Server thread/INFO]: Vine Growth Modifier: 100%
+[15:34:02] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[15:34:02] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[15:34:02] [Server thread/INFO]: Random Lighting Updates: false
+[15:34:02] [Server thread/INFO]: Structure Info Saving: true
+[15:34:02] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[15:34:02] [Server thread/INFO]: Max TNT Explosions: 100
+[15:34:02] [Server thread/INFO]: Preparing start region for level 0 (Seed: -890158727335545717)
+[15:34:03] [Server thread/INFO]: Preparing spawn area: 32%
+[15:34:04] [Server thread/INFO]: Preparing start region for level 1 (Seed: -890158727335545717)
+[15:34:05] [Server thread/INFO]: Preparing spawn area: 95%
+[15:34:05] [Server thread/INFO]: Preparing start region for level 2 (Seed: -890158727335545717)
+[15:34:05] [Server thread/INFO]: [PermissionsEx] Enabling PermissionsEx v1.23.4
+[15:34:05] [Server thread/INFO]: [PermissionsEx] Initializing file backend
+[15:34:05] [Server thread/ERROR]: [PermissionsEx] 
+========== UNABLE TO LOAD PERMISSIONS BACKEND =========
+Your configuration must be fixed before PEX will enable
+Details: Error loading permissions file!
+=======================================================
+ru.tehkode.permissions.exceptions.PermissionBackendException: Error loading permissions file!
+	at ru.tehkode.permissions.backends.file.FileBackend.reload(FileBackend.java:321) ~[PermissionsEx-1.23.4.jar:?]
+	at ru.tehkode.permissions.backends.file.FileBackend.<init>(FileBackend.java:120) ~[PermissionsEx-1.23.4.jar:?]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[?:1.8.0_131]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source) ~[?:1.8.0_131]
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source) ~[?:1.8.0_131]
+	at java.lang.reflect.Constructor.newInstance(Unknown Source) ~[?:1.8.0_131]
+	at ru.tehkode.permissions.backends.PermissionBackend.getBackend(PermissionBackend.java:392) ~[PermissionsEx-1.23.4.jar:?]
+	at ru.tehkode.permissions.backends.PermissionBackend.getBackend(PermissionBackend.java:367) ~[PermissionsEx-1.23.4.jar:?]
+	at ru.tehkode.permissions.PermissionManager.createBackend(PermissionManager.java:624) ~[PermissionsEx-1.23.4.jar:?]
+	at ru.tehkode.permissions.PermissionManager.setBackend(PermissionManager.java:606) ~[PermissionsEx-1.23.4.jar:?]
+	at ru.tehkode.permissions.PermissionManager.initBackend(PermissionManager.java:693) ~[PermissionsEx-1.23.4.jar:?]
+	at ru.tehkode.permissions.PermissionManager.<init>(PermissionManager.java:67) ~[PermissionsEx-1.23.4.jar:?]
+	at ru.tehkode.permissions.bukkit.PermissionsEx.onEnable(PermissionsEx.java:175) [PermissionsEx-1.23.4.jar:?]
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:271) [spigot-1.11.2.jar:git-Spigot-9ba269b-c19c293]
+	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:337) [spigot-1.11.2.jar:git-Spigot-9ba269b-c19c293]
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:405) [spigot-1.11.2.jar:git-Spigot-9ba269b-c19c293]
+	at org.bukkit.craftbukkit.v1_11_R1.CraftServer.enablePlugin(CraftServer.java:376) [spigot-1.11.2.jar:git-Spigot-9ba269b-c19c293]
+	at org.bukkit.craftbukkit.v1_11_R1.CraftServer.enablePlugins(CraftServer.java:326) [spigot-1.11.2.jar:git-Spigot-9ba269b-c19c293]
+	at net.minecraft.server.v1_11_R1.MinecraftServer.t(MinecraftServer.java:421) [spigot-1.11.2.jar:git-Spigot-9ba269b-c19c293]
+	at net.minecraft.server.v1_11_R1.MinecraftServer.l(MinecraftServer.java:382) [spigot-1.11.2.jar:git-Spigot-9ba269b-c19c293]
+	at net.minecraft.server.v1_11_R1.MinecraftServer.a(MinecraftServer.java:337) [spigot-1.11.2.jar:git-Spigot-9ba269b-c19c293]
+	at net.minecraft.server.v1_11_R1.DedicatedServer.init(DedicatedServer.java:272) [spigot-1.11.2.jar:git-Spigot-9ba269b-c19c293]
+	at net.minecraft.server.v1_11_R1.MinecraftServer.run(MinecraftServer.java:544) [spigot-1.11.2.jar:git-Spigot-9ba269b-c19c293]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_131]
+Caused by: org.bukkit.configuration.InvalidConfigurationException: while scanning for the next token
+found character '\t(TAB)' that cannot start any token. (Do not use \t(TAB) for indentation)
+ in 'string', line 9, column 1:
+    	  default: false
+    ^
+
+	at org.bukkit.configuration.file.YamlConfiguration.loadFromString(YamlConfiguration.java:56) ~[spigot-1.11.2.jar:git-Spigot-9ba269b-c19c293]
+	at ru.tehkode.permissions.backends.file.FileConfig.loadFromString(FileConfig.java:68) ~[PermissionsEx-1.23.4.jar:?]
+	at org.bukkit.configuration.file.FileConfiguration.load(FileConfiguration.java:184) ~[spigot-1.11.2.jar:git-Spigot-9ba269b-c19c293]
+	at org.bukkit.configuration.file.FileConfiguration.load(FileConfiguration.java:130) ~[spigot-1.11.2.jar:git-Spigot-9ba269b-c19c293]
+	at ru.tehkode.permissions.backends.file.FileConfig.load(FileConfig.java:38) ~[PermissionsEx-1.23.4.jar:?]
+	at ru.tehkode.permissions.backends.file.FileBackend.reload(FileBackend.java:309) ~[PermissionsEx-1.23.4.jar:?]
+	... 23 more
+Caused by: org.yaml.snakeyaml.scanner.ScannerException: while scanning for the next token
+found character '\t(TAB)' that cannot start any token. (Do not use \t(TAB) for indentation)
+ in 'string', line 9, column 1:
+    	  default: false
+    ^
+
+	at org.yaml.snakeyaml.scanner.ScannerImpl.fetchMoreTokens(ScannerImpl.java:420) ~[spigot-1.11.2.jar:git-Spigot-9ba269b-c19c293]
+	at org.yaml.snakeyaml.scanner.ScannerImpl.checkToken(ScannerImpl.java:226) ~[spigot-1.11.2.jar:git-Spigot-9ba269b-c19c293]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValue.produce(ParserImpl.java:585) ~[spigot-1.11.2.jar:git-Spigot-9ba269b-c19c293]
+	at org.yaml.snakeyaml.parser.ParserImpl.peekEvent(ParserImpl.java:157) ~[spigot-1.11.2.jar:git-Spigot-9ba269b-c19c293]
+	at org.yaml.snakeyaml.parser.ParserImpl.checkEvent(ParserImpl.java:147) ~[spigot-1.11.2.jar:git-Spigot-9ba269b-c19c293]
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:132) ~[spigot-1.11.2.jar:git-Spigot-9ba269b-c19c293]
+	at org.yaml.snakeyaml.composer.Composer.composeValueNode(Composer.java:246) ~[spigot-1.11.2.jar:git-Spigot-9ba269b-c19c293]
+	at org.yaml.snakeyaml.composer.Composer.composeMappingChildren(Composer.java:237) ~[spigot-1.11.2.jar:git-Spigot-9ba269b-c19c293]
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:225) ~[spigot-1.11.2.jar:git-Spigot-9ba269b-c19c293]
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:155) ~[spigot-1.11.2.jar:git-Spigot-9ba269b-c19c293]
+	at org.yaml.snakeyaml.composer.Composer.composeValueNode(Composer.java:246) ~[spigot-1.11.2.jar:git-Spigot-9ba269b-c19c293]
+	at org.yaml.snakeyaml.composer.Composer.composeMappingChildren(Composer.java:237) ~[spigot-1.11.2.jar:git-Spigot-9ba269b-c19c293]
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:225) ~[spigot-1.11.2.jar:git-Spigot-9ba269b-c19c293]
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:155) ~[spigot-1.11.2.jar:git-Spigot-9ba269b-c19c293]
+	at org.yaml.snakeyaml.composer.Composer.composeValueNode(Composer.java:246) ~[spigot-1.11.2.jar:git-Spigot-9ba269b-c19c293]
+	at org.yaml.snakeyaml.composer.Composer.composeMappingChildren(Composer.java:237) ~[spigot-1.11.2.jar:git-Spigot-9ba269b-c19c293]
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:225) ~[spigot-1.11.2.jar:git-Spigot-9ba269b-c19c293]
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:155) ~[spigot-1.11.2.jar:git-Spigot-9ba269b-c19c293]
+	at org.yaml.snakeyaml.composer.Composer.composeDocument(Composer.java:122) ~[spigot-1.11.2.jar:git-Spigot-9ba269b-c19c293]
+	at org.yaml.snakeyaml.composer.Composer.getSingleNode(Composer.java:105) ~[spigot-1.11.2.jar:git-Spigot-9ba269b-c19c293]
+	at org.yaml.snakeyaml.constructor.BaseConstructor.getSingleData(BaseConstructor.java:120) ~[spigot-1.11.2.jar:git-Spigot-9ba269b-c19c293]
+	at org.yaml.snakeyaml.Yaml.loadFromReader(Yaml.java:450) ~[spigot-1.11.2.jar:git-Spigot-9ba269b-c19c293]
+	at org.yaml.snakeyaml.Yaml.load(Yaml.java:369) ~[spigot-1.11.2.jar:git-Spigot-9ba269b-c19c293]
+	at org.bukkit.configuration.file.YamlConfiguration.loadFromString(YamlConfiguration.java:54) ~[spigot-1.11.2.jar:git-Spigot-9ba269b-c19c293]
+	at ru.tehkode.permissions.backends.file.FileConfig.loadFromString(FileConfig.java:68) ~[PermissionsEx-1.23.4.jar:?]
+	at org.bukkit.configuration.file.FileConfiguration.load(FileConfiguration.java:184) ~[spigot-1.11.2.jar:git-Spigot-9ba269b-c19c293]
+	at org.bukkit.configuration.file.FileConfiguration.load(FileConfiguration.java:130) ~[spigot-1.11.2.jar:git-Spigot-9ba269b-c19c293]
+	at ru.tehkode.permissions.backends.file.FileConfig.load(FileConfig.java:38) ~[PermissionsEx-1.23.4.jar:?]
+	at ru.tehkode.permissions.backends.file.FileBackend.reload(FileBackend.java:309) ~[PermissionsEx-1.23.4.jar:?]
+	... 23 more
+[15:34:05] [Server thread/INFO]: [PermissionsEx] Disabling PermissionsEx v1.23.4
+[15:34:05] [Server thread/INFO]: [NoCheatPlus] Enabling NoCheatPlus v3.15.0-SNAPSHOT-sMD5NET-b1082
+[15:34:05] [Server thread/INFO]: [NoCheatPlus] McAccess set to: 1.11-1.11.2 / Spigot-CB-1.11_R1
+[15:34:05] [Server thread/INFO]: [NoCheatPlus] Added block-info for Minecraft 1.5 blocks.
+[15:34:05] [Server thread/INFO]: [NoCheatPlus] Added block-info for Minecraft 1.6.1 blocks.
+[15:34:05] [Server thread/INFO]: [NoCheatPlus] Added block-info for Minecraft 1.7.2 blocks.
+[15:34:05] [Server thread/INFO]: [NoCheatPlus] Added block-info for Minecraft 1.8 blocks.
+[15:34:05] [Server thread/INFO]: [NoCheatPlus] Added block-info for Minecraft 1.9 blocks.
+[15:34:05] [Server thread/INFO]: [NoCheatPlus] Added block-info for Minecraft 1.10 blocks.
+[15:34:05] [Server thread/INFO]: [NoCheatPlus] Added block-info for Minecraft 1.11 blocks.
+[15:34:06] [Server thread/INFO]: [NoCheatPlus] Inventory checks: FastConsume is available, disabled InstantEat.
+[15:34:06] [Server thread/INFO]: [NoCheatPlus] Packet level access: ProtocolLib is not available.
+[15:34:06] [Server thread/INFO]: [NoCheatPlus] Force disable FastHeal on Minecraft 1.9 and later.
+[15:34:06] [Server thread/INFO]: [NoCheatPlus] Version 3.15.0-SNAPSHOT-sMD5NET-b1082 is enabled.
+[15:34:06] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v6.1.5;4651611
+[15:34:06] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[15:34:06] [Server thread/INFO]: [WorldEdit] Using com.sk89q.worldedit.bukkit.adapter.impl.Spigot_v1_11_R1 as the Bukkit adapter
+[15:34:06] [Server thread/INFO]: [AsyncWorldEdit] Initializing WorldEdit.
+[15:34:06] [Server thread/INFO]: [AsyncWorldEdit] Direct chunk commands...enabled
+[15:34:06] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[15:34:06] [Server thread/INFO]: Done (4.516s)! For help, type "help" or "?"
+[15:34:06] [Server thread/INFO]: [AsyncWorldEdit] Loading plugins...
+[15:34:06] [Craft Scheduler Thread - 2/INFO]: [NoCheatPlus] Added hook: AllViolations(NCP) [1.0].
+[15:34:06] [Server thread/INFO]: [NoCheatPlus] Post-enable running...
+[15:34:06] [Server thread/INFO]: [NoCheatPlus] Post-enable finished.

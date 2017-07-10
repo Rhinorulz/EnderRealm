@@ -1,0 +1,5 @@
+2017-04-09 17:27:50.919  INFO : [uSkyBlock] ===================================
+2017-04-09 17:27:50.922  INFO : [uSkyBlock] === Running name2uuid importer
+2017-04-09 17:27:50.922  INFO : [uSkyBlock] ===================================
+2017-04-09 17:27:50.934  INFO : [uSkyBlock] Importing 1 files
+2017-04-09 17:27:50.938  FINE : [uSkyBlock] Successfully imported file plugins\uSkyBlock\uuid2name.yml

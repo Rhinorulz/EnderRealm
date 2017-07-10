@@ -1,0 +1,3 @@
+offline_message: '&c&lATTENTION! The service &6%service% &cis OFFLINE! &7Type /mojangstatus!'
+ping_delay: 5
+check_delay: 5

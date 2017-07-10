@@ -1,0 +1,73 @@
+# Bungee Chat Configuration by shawn_ian (v4)
+# Placeholders can be found here: http://tiny.cc/bungeechatplaceholders
+# In the config file you can change the chat formats and disable and enable feautures.
+# If you found any bugs please report them (See plugin site for more information)
+
+Formats:
+  alert: "&9ALERT > &c&l%sender: &r%message"
+  socialspy: "&9SPY > &e%sender &8-> &e%target&8: &r%message"
+  global: "&9GLOBAL > &e%sender: &r%message"
+  message-sender: "&6You &8-> &6%target&8: &r%message"
+  message-target: "&6%sender &8-> &6You&8: &r%message"
+  staffchat: "&9STAFF > &e%sender: &r%message"
+  muted: "&cSorry but you can not talk because you are muted!"
+  local-chat: "%sprefix&7%sender: %message"
+  joinmessage: "&e%sender has joined the network!"
+  leavemessage: "&e%sender has left the network!"
+  helpop: "&2HELPOP > &e%sender: &r%message"
+
+Messages:
+  incorrect-usage: "&cIncorrect usage! Use this command like this: %command"
+  not-player: "&cYou need to be a player to use this command!"
+  muted: "&cSorry but you can not talk because you are muted!"
+  unmute: "&eThe player &c%target &cehas been unmuted!"
+  mute: "&eThe player &c%target &cehas been muted!"
+  unmute-not-muted: "&cThis player is not muted!"
+  mute-is-muted: "This player is already muted!"
+  enable-global: "&eYou are now talking in &bglobal chat&e!"
+  disable-global: "&eYou are no longer talking in &bglobal chat&e!"
+  no-reply: "&cYou have nobody to reply."
+  reply-offline: "&cThe player you were chatting with is no longer online."
+  message-yourself: "&cYou can not send a message to yourself..."
+  player-not-found: "&cCould not find that player..."
+  remove-prefix: "&eRemoved the prefix of &6%target&e!"
+  set-prefix: "&eSet the prefix of &6%target &eto %prefix&e!"
+  enable-socialspy: "&eSocialspy has been &aenbaled&e!"
+  disable-socialspy: "&eSocialspy has been &cdisabled&e!"
+  enable-staffchat: "&eYou are now talking in &astaffchat&e!"
+  disable-staffchat: "&eYou are no longer talking in &astaffchat&e!"
+  enable-messager: "&eYou have &aenbaled&e messaging!"
+  disable-messager: "&eYou have &cdisabled&e messaging"
+  has-messager-disabled: "&c%target has messaging disabled!"
+  enable-vanish: "&eYou have &aenbaled&e hide mode!"
+  disable-vanish: "&eYou have &cdisabled&e hide mode!"
+  global-is-default: "&eGlobal chat is already the default chatmode!"
+
+Enabled:
+  alert: true
+  socialspy: true
+  global: true
+  message: true
+  staffchat: true
+  muting: true
+  chatmanager: false
+  joinmessage: true
+  leavemessage: true
+  helpop: true
+  vanish: true
+
+Options:  
+   Global-is-default-chat: false
+
+Mute-Blocked-Commands:
+  - message
+  - msg
+  - whisper
+  - m
+  - tell
+  - t
+  - w
+  - global
+  - g
+  - reply
+  - r

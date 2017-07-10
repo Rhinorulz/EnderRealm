@@ -1,0 +1,25 @@
+floor:
+  general:
+    id: 1
+    world: SAO
+    boss: ''
+  spawnpoint:
+    x: 0.023540225500168988
+    y: 5.0
+    z: -0.14779856230161662
+    yaw: -51.15416717529297
+    pitch: 47.10002517700195
+  endpoint:
+    x: -0.280367621037287
+    y: 5.0
+    z: 0.16133311611774687
+    yaw: -51.304168701171875
+    pitch: 50.4000358581543
+  previousfloorportal:
+    x: 0.0
+    y: 0.0
+    z: 0.0
+  nextfloorportal:
+    x: 0.0
+    y: 0.0
+    z: 0.0

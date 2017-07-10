@@ -1,0 +1,76 @@
+#######################################################################
+#                     TheGreatSwordArtOnlineRPG                       #
+# 		A Sword Art Online inspired minecraft plugin                  #
+#######################################################################
+
+                              #
+                            ####                            
+                        #########                           
+                        ########,#                          
+                     #  ##########                          
+                        #########                           
+                      ###############                       
+                      #,############   #                    
+                  # ####################                    
+                  #  #################                      
+                    #################  #                    
+                  # #################~##                    
+                  ## ###################                    
+                  #####################                     
+     #         ## #:#####~############### #       #   # #   
+      #          # #####################  #      # #    ### 
+  ##,:# ~######,#  ########################   ### #:# ~##   
+  # ~,#######~ # ########################:#   #: ##~ ###    
+ ####,###,,:~###TheGreatSwordArtOnlineRPG###~##### ######## 
+ #~#############       by Shynixn      #################:##
+   #,#       :##############################     # #######  
+    #,~##    # #:~#############################   #####~#### 
+    #: ##      ,########################:##        ## ~#    
+   #####       ,#  ##################### ##         ##      
+                   ##~##################                    
+                  # ####################                    
+                     # ############~~, #                    
+                     # # ########~#                         
+                        ##,#######,                         
+                        ## #######                          
+                            ######                          
+                            ####~                           
+                            #,##                            
+                             ##                          
+                                           
+########################################################################
+
+# Shynixn~ Great ideas for this plugin?
+#	       http://dev.bukkit.org/bukkit-plugins/thegreatswordartonlinerpg/
+
+# Shynixn~ Give this plugin a diamond on planetminecraft?
+#	       http://www.planetminecraft.com/mod/swordskillmaster-sao-inspired-simple-swordskill-plugin/
+
+# Shynixn~ Rate this plugin on spigot?
+#	       http://www.spigotmc.org/resources/thegreatswordartonlinerpg.6919/
+
+# Shynixn~ Leave a comment?
+#	       http://dev.bukkit.org/bukkit-plugins/thegreatswordartonlinerpg/
+#	       http://www.planetminecraft.com/mod/swordskillmaster-sao-inspired-simple-swordskill-plugin/
+#		   http://www.spigotmc.org/resources/thegreatswordartonlinerpg.6919/
+
+########################################################################
+
+#		****All settings can be found in the settings.yml****		   #
+
+########################################################################
+
+# You are allowed to use this plugin without restrictions on public servers, but
+# please consider to credit me for my hard work :D
+
+# If you like this plugin, think about a small donation to keep me working on it ;)
+# http://dev.bukkit.org/bukkit-plugins/thegreatswordartonlinerpg/
+
+language: ENG
+auto-update: true
+version: 2.7
+
+#######################################################################
+#                     TheGreatSwordArtOnlineRPG                       #
+# 		A Sword Art Online inspired minecraft plugin                  #
+#######################################################################
